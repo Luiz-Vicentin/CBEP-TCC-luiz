@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
+   Sobre | CBEP
+  </title>
+<link href="../CSS/style.css" rel="stylesheet"/>
+<script defer="" src="../JavaScript/script.js">
+</script>
+<script defer="" src="../JavaScript/catalogo.js">
+</script>
+<script defer src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<link rel="stylesheet" href="../CSS/acessibilidade.css">
+<script src="../JavaScript/acessibilidade.js"></script>
+</head>
+<body>
+<header class="cabecalho">
+<div class="marca">
+<a class="sigla" href="../index.html">
+     CBEP
+    </a>
+<span class="marca-descricao">
+     Catálogo bibliográfico de
+     <br/>
+     escritores paranaenses
+    </span>
+</div>
+<nav aria-label="Navegação principal" class="navegacao">
+<a href="../index.html">
+     Início
+    </a>
+<button aria-controls="painel-lateral" aria-expanded="false" data-menu="autores" type="button">
+     Autores
+    </button>
+<button aria-controls="painel-lateral" aria-expanded="false" data-menu="obras" type="button">
+     Obras
+    </button>
+<a href="mapa.html">
+     Mapa
+    </a>
+<a href="linha-do-tempo.html">Linha do tempo</a>
+<a aria-current="page" href="sobre.html">
+     Sobre
+    </a>
+<a href="outros.html">Outros</a>
+<div class="acessibilidade">
+<button id="abrir-acessibilidade" class="acessibilidade-abrir" type="button" aria-label="Opções de acessibilidade" title="Acessibilidade" aria-expanded="false" aria-controls="painel-acessibilidade">
+<img src="../imagens/acessibilidade.png" alt="" width="32" height="32">
+</button>
+<div id="painel-acessibilidade" class="painel-acessibilidade" aria-labelledby="titulo-acessibilidade" hidden>
+<h2 id="titulo-acessibilidade" class="fonte-status">Acessibilidade</h2>
+<button id="alternar-contraste" aria-label="Alto contraste" class="alternar-contraste" type="button" aria-pressed="false"><span class="contraste-texto"><span class="contraste-rotulo">CONTRASTE</span><span class="contraste-icone" aria-hidden="true">◐</span></span><span id="contraste-estado" class="contraste-estado fonte-status">Desativado</span></button>
+<p class="fonte-status">Tamanho do texto</p>
+<div class="controles-fonte" role="group" aria-label="Tamanho do texto">
+<button type="button" data-fonte="diminuir" aria-label="Diminuir o texto" title="Diminuir o texto">A−</button>
+<button type="button" data-fonte="normal" aria-label="Restaurar tamanho padrão do texto" title="Restaurar tamanho padrão">A</button>
+<button type="button" data-fonte="aumentar" aria-label="Aumentar o texto" title="Aumentar o texto">A+</button>
+</div>
+<span id="fonte-status" class="fonte-status" role="status" aria-live="polite"></span>
+</div>
+</div>
+</nav>
+</header>
+<div class="faixa-azul">
+</div>
+<div class="estrutura" id="estrutura">
+<aside aria-label="Catálogo" class="painel-lateral" hidden="" id="painel-lateral">
+<div class="painel-topo">
+<h2 id="titulo-painel">
+      Autores
+     </h2>
+<button aria-label="Recolher menu lateral" id="fechar-painel" title="Recolher menu" type="button">
+      ❮
+     </button>
+</div>
+<label class="sr-only" for="pesquisa">
+     Pesquisar no catálogo
+    </label>
+<input autocomplete="off" id="pesquisa" placeholder="Pesquisar autor..." type="search"/>
+<nav aria-label="Resultados do catálogo">
+<ul id="lista-catalogo">
+</ul>
+</nav>
+<p hidden="" id="sem-resultados">
+     Nenhum resultado encontrado.
+    </p>
+</aside>
+<main class="conteudo pagina-sobre" id="conteudo">
+<h1>
+     Sobre
+    </h1>
+<section aria-labelledby="quem-somos">
+<h2 id="quem-somos">
+      Quem Somos?
+     </h2>
+<p>
+      Somos estudantes do Instituto Federal do Paraná – Campus Goioerê (IFPR). Em 2026, cursamos o 4º ano de Informática. Este site é a implementação do nosso Trabalho de Conclusão de Curso (TCC) e também integra um projeto de extensão chamado Catálogo Bibliográfico de Escritores Paranaenses. Com este trabalho, buscamos aplicar nossos conhecimentos na área tecnológica por meio da criação de um site e, ao mesmo tempo, contribuir para a valorização da cultura e da literatura produzida no Paraná.
+     </p>
+</section>
+<section aria-labelledby="sobre-projeto">
+<h2 id="sobre-projeto">
+      Sobre o Projeto
+     </h2>
+<p>
+      Este projeto tem como objetivo criar um site para divulgar as produções literárias de autores paranaenses, em parceria com alunos e docentes da instituição. Durante as pesquisas, identificamos que informações sobre a literatura do Paraná estão distribuídas entre sites, blogs e trabalhos acadêmicos, nem sempre de maneira organizada ou aprofundada. Por isso, o Catálogo Bibliográfico de Escritores Paranaenses busca reunir essas informações em um único espaço, ampliar o acesso ao conhecimento literário, incentivar a leitura crítica e facilitar a consulta de estudantes, professores e demais interessados na produção literária do estado.
+     </p>
+</section>
+<section aria-labelledby="integrantes" class="secao-integrantes">
+<h2 id="integrantes">
+      Integrantes 2026
+     </h2>
+<div class="grade-integrantes">
+<article class="integrante">
+<img alt="Foto de Jhenifer Kamilly" class="foto-integrante" height="190" loading="lazy" src="../imagens/Foto_Jhenifer.jpeg" width="145"/>
+<h3>
+        Jhenifer Kamilly
+       </h3>
+</article>
+<article class="integrante">
+<img alt="Foto de João Victor Grana" class="foto-integrante" height="190" loading="lazy" src="../imagens/Foto_Joao.jpeg" width="145"/>
+<h3>
+        João Victor Grana
+       </h3>
+</article>
+<article class="integrante">
+<img alt="Foto de Luiz Felipe Vicentin" class="foto-integrante" height="190" loading="lazy" src="../imagens/Foto_Luiz.jpeg" width="145"/>
+<h3>
+        Luiz Felipe Vicentin
+       </h3>
+</article>
+</div>
+</section>
+</main>
+</div>
+<footer class="rodape">
+<div class="rodape-marca">
+<strong>
+     CBEP
+    </strong>
+<small>
+     Catálogo bibliográfico de escritores paranaenses
+     <br/>
+     2026
+    </small>
+</div>
+<a class="contato" href="https://docs.google.com/forms/d/e/1FAIpQLSdd1gX3RLJQvGTrSzDLbFLiX2kR7PA3aKx731pIQG-7ZLPJAg/viewform" target="_blank" rel="noopener noreferrer">Envie seu feedback</a>
+</footer>
+</body>
+</html>

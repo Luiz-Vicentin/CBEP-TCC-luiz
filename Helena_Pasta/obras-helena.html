@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>
+   Obras de Helena Kolody | CBEP
+  </title>
+<link href="../CSS/style.css" rel="stylesheet"/>
+<script defer="" src="../JavaScript/script.js">
+</script>
+<script defer="" src="../JavaScript/catalogo.js">
+</script>
+<script defer src="../JavaScript/obras-helena.js"></script>
+<script defer src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<link rel="stylesheet" href="../CSS/acessibilidade.css">
+<script src="../JavaScript/acessibilidade.js"></script>
+</head>
+<body>
+<header class="cabecalho">
+<div class="marca">
+<a class="sigla" href="../index.html">
+     CBEP
+    </a>
+<span class="marca-descricao">
+     Catálogo bibliográfico de
+     <br/>
+     escritores paranaenses
+    </span>
+</div>
+<nav aria-label="Navegação principal" class="navegacao">
+<a href="../index.html">
+     Início
+    </a>
+<button aria-controls="painel-lateral" aria-expanded="false" data-menu="autores" type="button">
+     Autores
+    </button>
+<button aria-controls="painel-lateral" aria-expanded="false" data-menu="obras" type="button">
+     Obras
+    </button>
+<a href="../Paginas/mapa.html">
+     Mapa
+    </a>
+<a href="../Paginas/linha-do-tempo.html">Linha do tempo</a>
+<a href="../Paginas/sobre.html">
+     Sobre
+    </a>
+<a href="../Paginas/outros.html">Outros</a>
+<div class="acessibilidade">
+<button id="abrir-acessibilidade" class="acessibilidade-abrir" type="button" aria-label="Opções de acessibilidade" title="Acessibilidade" aria-expanded="false" aria-controls="painel-acessibilidade">
+<img src="../imagens/acessibilidade.png" alt="" width="32" height="32">
+</button>
+<div id="painel-acessibilidade" class="painel-acessibilidade" aria-labelledby="titulo-acessibilidade" hidden>
+<h2 id="titulo-acessibilidade" class="fonte-status">Acessibilidade</h2>
+<button id="alternar-contraste" aria-label="Alto contraste" class="alternar-contraste" type="button" aria-pressed="false"><span class="contraste-texto"><span class="contraste-rotulo">CONTRASTE</span><span class="contraste-icone" aria-hidden="true">◐</span></span><span id="contraste-estado" class="contraste-estado fonte-status">Desativado</span></button>
+<p class="fonte-status">Tamanho do texto</p>
+<div class="controles-fonte" role="group" aria-label="Tamanho do texto">
+<button type="button" data-fonte="diminuir" aria-label="Diminuir o texto" title="Diminuir o texto">A−</button>
+<button type="button" data-fonte="normal" aria-label="Restaurar tamanho padrão do texto" title="Restaurar tamanho padrão">A</button>
+<button type="button" data-fonte="aumentar" aria-label="Aumentar o texto" title="Aumentar o texto">A+</button>
+</div>
+<span id="fonte-status" class="fonte-status" role="status" aria-live="polite"></span>
+</div>
+</div>
+</nav>
+</header>
+<div class="faixa-azul">
+</div>
+<div class="estrutura">
+<aside aria-label="Catálogo lateral" class="painel-lateral" hidden="" id="painel-lateral">
+<div class="painel-topo">
+<h2 id="titulo-painel">
+      Obras
+     </h2>
+<button aria-label="Fechar barra lateral" class="fechar" id="fechar-painel" title="Recolher painel" type="button">
+      ‹
+     </button>
+</div>
+<label for="pesquisa" style="position:absolute;left:-9999px">
+     Pesquisar no catálogo
+    </label>
+<input autocomplete="off" class="pesquisa" id="pesquisa" placeholder="Pesquisar..." type="search"/>
+<ul id="lista-catalogo">
+</ul>
+<p hidden="" id="sem-resultados">
+     Nenhum resultado encontrado.
+    </p>
+</aside>
+<main class="conteudo pagina-obras-catalogo">
+<h1>Obras de Helena Kolody</h1>
+<section class="introducao-obras"><h2>Sobre</h2><p>Explore as obras de Helena Kolody reunidas no catálogo, em ordem de primeira publicação. Pesquise pelo título ou escolha um período.</p></section>
+<section class="filtros-obras" aria-label="Filtrar obras">
+<label class="sr-only" for="busca-obras">Pesquisar pelo nome do livro</label>
+<div class="campo-busca-obras"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 5 5"/></svg><input id="busca-obras" type="search" placeholder="Pesquisar pelo nome do livro..." autocomplete="off"/></div>
+<div class="decadas-obras" role="group" aria-label="Período de publicação"><button type="button" class="decada selecionada" data-decada="todas" aria-pressed="true">Todas</button><button type="button" class="decada" data-decada="1940" aria-pressed="false">1940–1949</button><button type="button" class="decada" data-decada="1950" aria-pressed="false">1950–1959</button><button type="button" class="decada" data-decada="1960" aria-pressed="false">1960–1969</button><button type="button" class="decada" data-decada="1970" aria-pressed="false">1970–1979</button><button type="button" class="decada" data-decada="1980" aria-pressed="false">1980–1989</button><button type="button" class="decada" data-decada="1990" aria-pressed="false">1990–1999</button><button type="button" class="decada" data-decada="2000" aria-pressed="false">2000–2012</button></div>
+<p id="contagem-obras" class="contagem-obras" role="status" aria-live="polite">16 obras · ordem de lançamento</p>
+</section>
+<ul class="grade-obras" id="grade-obras"><li class="obra-item" data-titulo="Paisagem Interior" data-decada="1940">
+<a class="obra-cartao" href="helena-paisagem-interior.html"><img class="capa" src="../imagens/paisagem.webp" alt="Capa de Paisagem Interior" width="150" height="202"/><span class="obra-titulo">Paisagem Interior</span><span class="obra-ano">(1941)</span></a></li><li class="obra-item" data-titulo="Música Submersa" data-decada="1940">
+<a class="obra-cartao" href="helena-musica-submersa.html"><img class="capa" src="../imagens/helena-obras/musica-submersa.jpg" alt="Capa de Música Submersa" width="150" height="202"/><span class="obra-titulo">Música Submersa</span><span class="obra-ano">(1945)</span></a></li><li class="obra-item" data-titulo="A Sombra no Rio" data-decada="1950">
+<a class="obra-cartao" href="helena-a-sombra-no-rio.html"><img class="capa" src="../imagens/sombra.webp" alt="Capa de A Sombra no Rio" width="150" height="202"/><span class="obra-titulo">A Sombra no Rio</span><span class="obra-ano">(1951)</span></a></li><li class="obra-item" data-titulo="Vida Breve" data-decada="1960">
+<a class="obra-cartao" href="helena-vida-breve.html"><img class="capa" src="../imagens/helena-obras/vida-breve.jpg" alt="Capa de Vida Breve" width="150" height="202"/><span class="obra-titulo">Vida Breve</span><span class="obra-ano">(1964)</span></a></li><li class="obra-item" data-titulo="Era Espacial" data-decada="1960">
+<a class="obra-cartao" href="helena-era-espacial.html"><img class="capa" src="../imagens/helena-obras/era-espacial.jpg" alt="Capa de Era Espacial" width="150" height="202"/><span class="obra-titulo">Era Espacial</span><span class="obra-ano">(1966)</span></a></li><li class="obra-item" data-titulo="Trilha Sonora" data-decada="1960">
+<a class="obra-cartao" href="helena-trilha-sonora.html"><img class="capa" src="../imagens/helena-obras/trilha-sonora.jpg" alt="Capa de Trilha Sonora" width="150" height="202"/><span class="obra-titulo">Trilha Sonora</span><span class="obra-ano">(1966)</span></a></li><li class="obra-item" data-titulo="Tempo" data-decada="1970">
+<a class="obra-cartao" href="helena-tempo.html"><img class="capa" src="../imagens/helena-obras/tempo.jpg" alt="Capa de Tempo" width="150" height="202"/><span class="obra-titulo">Tempo</span><span class="obra-ano">(1970)</span></a></li><li class="obra-item" data-titulo="Infinito Presente" data-decada="1980">
+<a class="obra-cartao" href="helena-infinito-presente.html"><img class="capa" src="../imagens/helena-obras/infinito-presente.jpg" alt="Capa de Infinito Presente" width="150" height="202"/><span class="obra-titulo">Infinito Presente</span><span class="obra-ano">(1980)</span></a></li><li class="obra-item" data-titulo="Sempre Palavra" data-decada="1980">
+<a class="obra-cartao" href="helena-sempre-palavra.html"><img class="capa" src="../imagens/palavra.webp" alt="Capa de Sempre Palavra" width="150" height="202"/><span class="obra-titulo">Sempre Palavra</span><span class="obra-ano">(1985)</span></a></li><li class="obra-item" data-titulo="Poesia Mínima" data-decada="1980">
+<a class="obra-cartao" href="helena-poesia-minima.html"><img class="capa" src="../imagens/helena-obras/poesia-minima.jpg" alt="Capa de Poesia Mínima" width="150" height="202"/><span class="obra-titulo">Poesia Mínima</span><span class="obra-ano">(1986)</span></a></li><li class="obra-item" data-titulo="Viagem no Espelho" data-decada="1980">
+<a class="obra-cartao" href="helena-viagem-no-espelho.html"><img class="capa" src="../imagens/helena-obras/viagem-no-espelho.jpg" alt="Capa de Viagem no Espelho" width="150" height="202"/><span class="obra-titulo">Viagem no Espelho</span><span class="obra-ano">(1988)</span></a></li><li class="obra-item" data-titulo="Ontem Agora" data-decada="1990">
+<a class="obra-cartao" href="helena-ontem-agora.html"><img class="capa" src="../imagens/helena-obras/ontem-agora.jpg" alt="Capa de Ontem Agora" width="150" height="202"/><span class="obra-titulo">Ontem Agora</span><span class="obra-ano">(1991)</span></a></li><li class="obra-item" data-titulo="Reika" data-decada="1990">
+<a class="obra-cartao" href="helena-reika.html"><img class="capa" src="../imagens/helena-obras/reika.jpg" alt="Capa de Reika" width="150" height="202"/><span class="obra-titulo">Reika</span><span class="obra-ano">(1993)</span></a></li><li class="obra-item" data-titulo="Luz Infinita" data-decada="1990">
+<a class="obra-cartao" href="helena-luz-infinita.html"><img class="capa" src="../imagens/helena-obras/luz-infinita.jpg" alt="Capa de Luz Infinita" width="150" height="202"/><span class="obra-titulo">Luz Infinita</span><span class="obra-ano">(1997)</span></a></li><li class="obra-item" data-titulo="Memórias de Nhá Mariquinha" data-decada="2000">
+<a class="obra-cartao" href="helena-memorias-de-nha-mariquinha.html"><img class="capa" src="../imagens/helena-obras/memorias-de-nha-mariquinha.jpg" alt="Capa de Memórias de Nhá Mariquinha" width="150" height="202"/><span class="obra-titulo">Memórias de Nhá Mariquinha</span><span class="obra-ano">(2002)</span></a></li><li class="obra-item" data-titulo="Tear de Palavras" data-decada="2000">
+<a class="obra-cartao" href="helena-tear-de-palavras.html"><div class="capa-sem-edicao" role="img" aria-label="Tear de Palavras: coletânea publicada como apêndice, sem capa independente"><span>Tear de<br/>Palavras</span><small>Publicado como apêndice</small></div><span class="obra-titulo">Tear de Palavras</span><span class="obra-ano">(2012)</span></a></li></ul>
+<div id="obras-vazias" class="obras-vazias" hidden><p>Nenhuma obra encontrada. Tente outro título ou outra década.</p><button id="limpar-filtros" type="button">Limpar filtros</button></div>
+<section class="nota-catalogo"><p>Esta página reúne os 16 títulos de Helena Kolody selecionados para o CBEP. Os anos indicam a primeira publicação de cada obra; as capas apresentadas podem pertencer a edições posteriores.</p><p>Ainda não está disponível a capa de <strong>Tear de Palavras</strong>.</p><a class="link-complemento" href="https://helenakolody.art/fortuna-critica/obras-da-autora/" target="_blank" rel="noopener noreferrer">Consultar bibliografia de Helena Kolody</a></section>
+</main>
+</div>
+<footer class="rodape">
+<div class="rodape-marca">
+<strong>
+     CBEP
+    </strong>
+<small>
+     Catálogo bibliográfico de escritores paranaenses
+     <br/>
+     2026
+    </small>
+</div>
+<a class="contato" href="https://docs.google.com/forms/d/e/1FAIpQLSdd1gX3RLJQvGTrSzDLbFLiX2kR7PA3aKx731pIQG-7ZLPJAg/viewform" target="_blank" rel="noopener noreferrer">Envie seu feedback</a>
+</footer>
+</body>
+</html>
+
+

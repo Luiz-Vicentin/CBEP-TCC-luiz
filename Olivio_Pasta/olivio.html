@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>
+   Olívio Jekupé | CBEP
+  </title>
+<link href="../CSS/style.css" rel="stylesheet"/>
+<script defer="" src="../JavaScript/script.js">
+</script>
+<script defer="" src="../JavaScript/catalogo.js">
+</script>
+<script defer src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<link rel="stylesheet" href="../CSS/acessibilidade.css">
+<script src="../JavaScript/acessibilidade.js"></script>
+</head>
+<body>
+<header class="cabecalho">
+<div class="marca">
+<a class="sigla" href="../index.html">
+     CBEP
+    </a>
+<span class="marca-descricao">
+     Catálogo bibliográfico de
+     <br/>
+     escritores paranaenses
+    </span>
+</div>
+<nav aria-label="Navegação principal" class="navegacao">
+<a href="../index.html">
+     Início
+    </a>
+<button aria-controls="painel-lateral" aria-expanded="false" data-menu="autores" type="button">
+     Autores
+    </button>
+<button aria-controls="painel-lateral" aria-expanded="false" data-menu="obras" type="button">
+     Obras
+    </button>
+<a href="../Paginas/mapa.html">
+     Mapa
+    </a>
+<a href="../Paginas/linha-do-tempo.html">Linha do tempo</a>
+<a href="../Paginas/sobre.html">
+     Sobre
+    </a>
+<a href="../Paginas/outros.html">Outros</a>
+<div class="acessibilidade">
+<button id="abrir-acessibilidade" class="acessibilidade-abrir" type="button" aria-label="Opções de acessibilidade" title="Acessibilidade" aria-expanded="false" aria-controls="painel-acessibilidade">
+<img src="../imagens/acessibilidade.png" alt="" width="32" height="32">
+</button>
+<div id="painel-acessibilidade" class="painel-acessibilidade" aria-labelledby="titulo-acessibilidade" hidden>
+<h2 id="titulo-acessibilidade" class="fonte-status">Acessibilidade</h2>
+<button id="alternar-contraste" aria-label="Alto contraste" class="alternar-contraste" type="button" aria-pressed="false"><span class="contraste-texto"><span class="contraste-rotulo">CONTRASTE</span><span class="contraste-icone" aria-hidden="true">◐</span></span><span id="contraste-estado" class="contraste-estado fonte-status">Desativado</span></button>
+<p class="fonte-status">Tamanho do texto</p>
+<div class="controles-fonte" role="group" aria-label="Tamanho do texto">
+<button type="button" data-fonte="diminuir" aria-label="Diminuir o texto" title="Diminuir o texto">A−</button>
+<button type="button" data-fonte="normal" aria-label="Restaurar tamanho padrão do texto" title="Restaurar tamanho padrão">A</button>
+<button type="button" data-fonte="aumentar" aria-label="Aumentar o texto" title="Aumentar o texto">A+</button>
+</div>
+<span id="fonte-status" class="fonte-status" role="status" aria-live="polite"></span>
+</div>
+</div>
+</nav>
+</header>
+<div class="faixa-azul">
+</div>
+<div class="estrutura">
+<aside aria-label="Catálogo lateral" class="painel-lateral" hidden="" id="painel-lateral">
+<div class="painel-topo">
+<h2 id="titulo-painel">
+      Obras
+     </h2>
+<button aria-label="Fechar barra lateral" class="fechar" id="fechar-painel" title="Recolher painel" type="button">
+      ‹
+     </button>
+</div>
+<label for="pesquisa" style="position:absolute;left:-9999px">
+     Pesquisar no catálogo
+    </label>
+<input autocomplete="off" class="pesquisa" id="pesquisa" placeholder="Pesquisar..." type="search"/>
+<ul id="lista-catalogo">
+</ul>
+<p hidden="" id="sem-resultados">
+     Nenhum resultado encontrado.
+    </p>
+</aside>
+<main class="conteudo">
+<h1>Olívio Zeferino da Silva</h1>
+<img alt="Retrato de Olívio Jekupé" class="foto-autor" src="../imagens/olivio-jekupe.jpg"/>
+<section>
+<h2>Biografia</h2>
+<p>Olívio Zeferino da Silva nasceu em Nova Itacolomi (PR), em 10 de outubro de 1965, e desde cedo teve contato com a cultura Guarani, através de sua mãe e de sua avó. Olívio também teve contato com indígenas da etnia Kaingang, na cidade de São Sebastião, no Paraná. Foi batizado de Jekupé (que significa mestiço), após participar do “batismo das almas” das aldeias Guarani Mbyá da região metropolitana de São Paulo (SP). Iniciou seus estudos em filosofia na PUC-PR e, posteriormente, na Universidade de São Paulo (USP), porém não concluiu.</p>
+<p>Olívio participou da criação do Núcleo de Escritores e Artistas Indígenas (NEARIN) em 2004, ligado ao Instituto Indígena Brasileiro para a Propriedade Intelectual (INBRAPI). Começou a escrever literatura em 1984, de forma independente. Sua produção se aproxima do contexto escolar, publicando em 1999 uma obra própria, chamada “500 anos de angústia”, uma coletânea de poemas.</p>
+</section>
+<section>
+<h2>Principais Obras</h2>
+<div class="capas">
+<div class="livro"><a class="link-capa" href="olivio-ajuda-do-saci.html" aria-label="Ver Ajuda do Saci – Kamba’i"><img class="capa" src="../imagens/ajuda_doSaci.jpg" alt="Capa de Ajuda do Saci – Kamba’i"/></a><span>Ajuda do Saci – Kamba’i<br/>(2006)</span></div>
+<div class="livro"><a class="link-capa" href="olivio-500-anos.html" aria-label="Ver 500 anos de angústia"><img class="capa" src="../imagens/500_anos_de_Angustia.jpg" alt="Capa de 500 anos de angústia"/></a><span>500 anos de angústia<br/>(1999)</span></div>
+<div class="livro"><a class="link-capa" href="olivio-saci-verdadeiro.html" aria-label="Ver O Saci verdadeiro"><img class="capa" src="../imagens/o_saci_verdadeiro.jpg" alt="Capa de O Saci verdadeiro"/></a><span>O Saci verdadeiro<br/>(2000)</span></div>
+</div>
+<a class="veja-mais" href="obras-olivio.html">Veja mais</a>
+</section>
+<section>
+<h2>Literatura</h2>
+<p>Jekupé possui mais de 30 obras, abrangendo diversos gêneros, desde contos e poesias até romances e livros infantis, entre elas “Leópolis inesquecível” (1993), “Iarandu, o cão falante” (2002), “O Saci verdadeiro” (2000), “Ajuda do Saci – Kamba’i” (2006) e “O presente de Jaxy Jaterê” (2017). Através de uma literatura marcada pela cultura indígena, o escritor busca representar seu povo e contribuir para a desconstrução de estereótipos acerca dos povos indígenas.</p>
+</section>
+<section><h2>Premiações</h2><p>Não foram informadas premiações no material fornecido para este catálogo.</p></section>
+<section><h2>Complemento</h2><p>Acesse o link abaixo para conhecer mais sobre o autor e suas obras.</p><a class="link-complemento" href="https://www.instagram.com/olivio_jekupe/" target="_blank" rel="noopener noreferrer">Olívio Jekupé no Instagram</a></section>
+</main>
+</div>
+<footer class="rodape">
+<div class="rodape-marca">
+<strong>
+     CBEP
+    </strong>
+<small>
+     Catálogo bibliográfico de escritores paranaenses
+     <br/>
+     2026
+    </small>
+</div>
+<a class="contato" href="https://docs.google.com/forms/d/e/1FAIpQLSdd1gX3RLJQvGTrSzDLbFLiX2kR7PA3aKx731pIQG-7ZLPJAg/viewform" target="_blank" rel="noopener noreferrer">Envie seu feedback</a>
+</footer>
+</body>
+</html>
+

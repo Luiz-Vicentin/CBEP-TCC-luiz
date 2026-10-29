@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Obras de Luci Collin | CBEP</title>
+<link href="../CSS/style.css" rel="stylesheet"/>
+<script defer="" src="../JavaScript/script.js">
+</script>
+<script defer="" src="../JavaScript/catalogo.js">
+</script>
+<script defer src="../JavaScript/obras-luci.js"></script>
+<script defer src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<link rel="stylesheet" href="../CSS/acessibilidade.css">
+<script src="../JavaScript/acessibilidade.js"></script>
+</head>
+<body>
+<header class="cabecalho">
+<div class="marca">
+<a class="sigla" href="../index.html">
+     CBEP
+    </a>
+<span class="marca-descricao">
+     Catálogo bibliográfico de
+     <br/>
+     escritores paranaenses
+    </span>
+</div>
+<nav aria-label="Navegação principal" class="navegacao">
+<a href="../index.html">
+     Início
+    </a>
+<button aria-controls="painel-lateral" aria-expanded="false" data-menu="autores" type="button">
+     Autores
+    </button>
+<button aria-controls="painel-lateral" aria-expanded="false" data-menu="obras" type="button">
+     Obras
+    </button>
+<a href="../Paginas/mapa.html">
+     Mapa
+    </a>
+<a href="../Paginas/linha-do-tempo.html">Linha do tempo</a>
+<a href="../Paginas/sobre.html">
+     Sobre
+    </a>
+<a href="../Paginas/outros.html">Outros</a>
+<div class="acessibilidade">
+<button id="abrir-acessibilidade" class="acessibilidade-abrir" type="button" aria-label="Opções de acessibilidade" title="Acessibilidade" aria-expanded="false" aria-controls="painel-acessibilidade">
+<img src="../imagens/acessibilidade.png" alt="" width="32" height="32">
+</button>
+<div id="painel-acessibilidade" class="painel-acessibilidade" aria-labelledby="titulo-acessibilidade" hidden>
+<h2 id="titulo-acessibilidade" class="fonte-status">Acessibilidade</h2>
+<button id="alternar-contraste" aria-label="Alto contraste" class="alternar-contraste" type="button" aria-pressed="false"><span class="contraste-texto"><span class="contraste-rotulo">CONTRASTE</span><span class="contraste-icone" aria-hidden="true">◐</span></span><span id="contraste-estado" class="contraste-estado fonte-status">Desativado</span></button>
+<p class="fonte-status">Tamanho do texto</p>
+<div class="controles-fonte" role="group" aria-label="Tamanho do texto">
+<button type="button" data-fonte="diminuir" aria-label="Diminuir o texto" title="Diminuir o texto">A−</button>
+<button type="button" data-fonte="normal" aria-label="Restaurar tamanho padrão do texto" title="Restaurar tamanho padrão">A</button>
+<button type="button" data-fonte="aumentar" aria-label="Aumentar o texto" title="Aumentar o texto">A+</button>
+</div>
+<span id="fonte-status" class="fonte-status" role="status" aria-live="polite"></span>
+</div>
+</div>
+</nav>
+</header>
+<div class="faixa-azul">
+</div>
+<div class="estrutura">
+<aside aria-label="Catálogo lateral" class="painel-lateral" hidden="" id="painel-lateral">
+<div class="painel-topo">
+<h2 id="titulo-painel">
+      Obras
+     </h2>
+<button aria-label="Fechar barra lateral" class="fechar" id="fechar-painel" title="Recolher painel" type="button">
+      ‹
+     </button>
+</div>
+<label for="pesquisa" style="position:absolute;left:-9999px">
+     Pesquisar no catálogo
+    </label>
+<input autocomplete="off" class="pesquisa" id="pesquisa" placeholder="Pesquisar..." type="search"/>
+<ul id="lista-catalogo">
+</ul>
+<p hidden="" id="sem-resultados">
+     Nenhum resultado encontrado.
+    </p>
+</aside>
+<main class="conteudo pagina-obras-catalogo">
+<h1>Obras de Luci Collin</h1>
+<section class="introducao-obras"><h2>Sobre</h2><p>Explore as obras de Luci Collin reunidas no catálogo, em ordem de lançamento. Pesquise pelo título ou escolha um período.</p></section>
+<section class="filtros-obras" aria-label="Filtrar obras">
+<label class="sr-only" for="busca-obras">Pesquisar pelo nome do livro</label>
+<div class="campo-busca-obras"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 5 5"/></svg><input id="busca-obras" type="search" placeholder="Pesquisar pelo nome do livro..." autocomplete="off"/></div>
+<div class="decadas-obras" role="group" aria-label="Período de publicação"><button type="button" class="decada selecionada" data-decada="todas" aria-pressed="true">Todas</button><button type="button" class="decada" data-decada="1980" aria-pressed="false">1980–1989</button><button type="button" class="decada" data-decada="1990" aria-pressed="false">1990–1999</button><button type="button" class="decada" data-decada="2000" aria-pressed="false">2000–2009</button><button type="button" class="decada" data-decada="2010" aria-pressed="false">2010–2019</button><button type="button" class="decada" data-decada="2020" aria-pressed="false">2020–2026</button></div>
+<p id="contagem-obras" class="contagem-obras" role="status" aria-live="polite">25 obras · ordem de lançamento</p>
+</section>
+<ul class="grade-obras" id="grade-obras"><li class="obra-item" data-titulo="Estarrecer" data-decada="1980"><a class="obra-cartao" href="luci-estarrecer.html"><img class="capa" src="../imagens/luci-obras/estarrecer.jpeg" alt="Capa de Estarrecer"/><span class="obra-titulo">Estarrecer</span><span class="obra-ano">(1984)</span></a></li><li class="obra-item" data-titulo="Espelhar" data-decada="1990"><a class="obra-cartao" href="luci-espelhar.html"><img class="capa" src="../imagens/luci-obras/espelhar.jpeg" alt="Capa de Espelhar"/><span class="obra-titulo">Espelhar</span><span class="obra-ano">(1991)</span></a></li><li class="obra-item" data-titulo="Esvazio" data-decada="1990"><a class="obra-cartao" href="luci-esvazio.html"><img class="capa" src="../imagens/luci-obras/esvazio.jpeg" alt="Capa de Esvazio"/><span class="obra-titulo">Esvazio</span><span class="obra-ano">(1991)</span></a></li><li class="obra-item" data-titulo="Ondas e Azuis" data-decada="1990"><a class="obra-cartao" href="luci-ondas-e-azuis.html"><img class="capa" src="../imagens/luci-obras/ondas-e-azuis.jpeg" alt="Capa de Ondas e Azuis"/><span class="obra-titulo">Ondas e Azuis</span><span class="obra-ano">(1992)</span></a></li><li class="obra-item" data-titulo="Poesia Reunida" data-decada="1990"><a class="obra-cartao" href="luci-poesia-reunida.html"><img class="capa" src="../imagens/luci-obras/poesia-reunida.jpeg" alt="Capa de Poesia Reunida"/><span class="obra-titulo">Poesia Reunida</span><span class="obra-ano">(1996)</span></a></li><li class="obra-item" data-titulo="Lição Invisível" data-decada="1990"><a class="obra-cartao" href="luci-licao-invisivel.html"><img class="capa" src="../imagens/luci-obras/licao-invisivel.jpeg" alt="Capa de Lição Invisível"/><span class="obra-titulo">Lição Invisível</span><span class="obra-ano">(1997)</span></a></li><li class="obra-item" data-titulo="Todo Implícito" data-decada="1990"><a class="obra-cartao" href="luci-todo-implicito.html"><img class="capa" src="../imagens/luci-obras/todo-implicito.jpeg" alt="Capa de Todo Implícito"/><span class="obra-titulo">Todo Implícito</span><span class="obra-ano">(1997)</span></a></li><li class="obra-item" data-titulo="Precioso Impreciso" data-decada="2000"><a class="obra-cartao" href="luci-precioso-impreciso.html"><img class="capa" src="../imagens/luci-obras/precioso-impreciso.jpeg" alt="Capa de Precioso Impreciso"/><span class="obra-titulo">Precioso Impreciso</span><span class="obra-ano">(2001)</span></a></li><li class="obra-item" data-titulo="Inescritos" data-decada="2000"><a class="obra-cartao" href="luci-inescritos.html"><img class="capa" src="../imagens/luci-obras/inescritos.jpeg" alt="Capa de Inescritos"/><span class="obra-titulo">Inescritos</span><span class="obra-ano">(2004)</span></a></li><li class="obra-item" data-titulo="Acasos Pensados" data-decada="2000"><a class="obra-cartao" href="luci-acasos-pensados.html"><img class="capa" src="../imagens/luci-obras/acasos-pensados.jpeg" alt="Capa de Acasos Pensados"/><span class="obra-titulo">Acasos Pensados</span><span class="obra-ano">(2008)</span></a></li><li class="obra-item" data-titulo="Vozes num Divertimento" data-decada="2000"><a class="obra-cartao" href="luci-vozes-num-divertimento.html"><img class="capa" src="../imagens/luci-obras/vozes-num-divertimento.jpeg" alt="Capa de Vozes num Divertimento"/><span class="obra-titulo">Vozes num Divertimento</span><span class="obra-ano">(2008)</span></a></li><li class="obra-item" data-titulo="Com Que Se Pode Jogar" data-decada="2010"><a class="obra-cartao" href="luci-com-que-se-pode-jogar.html"><img class="capa" src="../imagens/luci-obras/com-que-se-pode-jogar.jpg" alt="Capa de Com Que Se Pode Jogar"/><span class="obra-titulo">Com Que Se Pode Jogar</span><span class="obra-ano">(2011)</span></a></li><li class="obra-item" data-titulo="Trato de Silêncios" data-decada="2010"><a class="obra-cartao" href="luci-trato-de-silencios.html"><img class="capa" src="../imagens/luci-obras/trato-de-silencios.jpg" alt="Capa de Trato de Silêncios"/><span class="obra-titulo">Trato de Silêncios</span><span class="obra-ano">(2012)</span></a></li><li class="obra-item" data-titulo="Querer Falar" data-decada="2010"><a class="obra-cartao" href="luci-querer-falar.html"><img class="capa" src="../imagens/falar.jpg" alt="Capa de Querer Falar"/><span class="obra-titulo">Querer Falar</span><span class="obra-ano">(2014)</span></a></li><li class="obra-item" data-titulo="A Árvore Todas" data-decada="2010"><a class="obra-cartao" href="luci-a-arvore-todas.html"><img class="capa" src="../imagens/luci-obras/a-arvore-todas.png" alt="Capa de A Árvore Todas"/><span class="obra-titulo">A Árvore Todas</span><span class="obra-ano">(2015)</span></a></li><li class="obra-item" data-titulo="Nossa Senhora D’Aqui" data-decada="2010"><a class="obra-cartao" href="luci-nossa-senhora-daqui.html"><img class="capa" src="../imagens/luci-obras/nossa-senhora-daqui.jpg" alt="Capa de Nossa Senhora D’Aqui"/><span class="obra-titulo">Nossa Senhora D’Aqui</span><span class="obra-ano">(2015)</span></a></li><li class="obra-item" data-titulo="A Palavra Algo" data-decada="2010"><a class="obra-cartao" href="luci-a-palavra-algo.html"><img class="capa" src="../imagens/luci_palavra.jpg" alt="Capa de A Palavra Algo"/><span class="obra-titulo">A Palavra Algo</span><span class="obra-ano">(2016)</span></a></li><li class="obra-item" data-titulo="A Peça Intocada" data-decada="2010"><a class="obra-cartao" href="luci-a-peca-intocada.html"><img class="capa" src="../imagens/luci-obras/a-peca-intocada.webp" alt="Capa de A Peça Intocada"/><span class="obra-titulo">A Peça Intocada</span><span class="obra-ano">(2017)</span></a></li><li class="obra-item" data-titulo="Antologia Poética 1984–2018" data-decada="2010"><a class="obra-cartao" href="luci-antologia-poetica.html"><img class="capa" src="../imagens/luci-obras/antologia-poetica.jpg" alt="Capa de Antologia Poética 1984–2018"/><span class="obra-titulo">Antologia Poética 1984–2018</span><span class="obra-ano">(2018)</span></a></li><li class="obra-item" data-titulo="Papéis de Maria Dias" data-decada="2010"><a class="obra-cartao" href="luci-papeis-de-maria-dias.html"><img class="capa" src="../imagens/luci-obras/papeis-de-maria-dias.png" alt="Capa de Papéis de Maria Dias"/><span class="obra-titulo">Papéis de Maria Dias</span><span class="obra-ano">(2018)</span></a></li><li class="obra-item" data-titulo="Fascinação" data-decada="2010"><a class="obra-cartao" href="luci-fascinacao-em-parceria-com-flavio-de-souza.html"><img class="capa" src="../imagens/luci-obras/fascinacao-em-parceria-com-flavio-de-souza.jpg" alt="Capa de Fascinação"/><span class="obra-titulo">Fascinação</span><span class="obra-ano">(2019)</span></a></li><li class="obra-item" data-titulo="Rosa Que Está" data-decada="2010"><a class="obra-cartao" href="luci-rosa-que-esta.html"><img class="capa" src="../imagens/luci-obras/rosa-que-esta.png" alt="Capa de Rosa Que Está"/><span class="obra-titulo">Rosa Que Está</span><span class="obra-ano">(2019)</span></a></li><li class="obra-item" data-titulo="Dedos Impermitidos" data-decada="2020"><a class="obra-cartao" href="luci-dedos-impermitidos.html"><img class="capa" src="../imagens/dedos.jpg" alt="Capa de Dedos Impermitidos"/><span class="obra-titulo">Dedos Impermitidos</span><span class="obra-ano">(2021)</span></a></li><li class="obra-item" data-titulo="Olho Reavido" data-decada="2020"><a class="obra-cartao" href="luci-olho-reavido.html"><img class="capa" src="../imagens/luci-obras/olho-reavido.jpg" alt="Capa de Olho Reavido"/><span class="obra-titulo">Olho Reavido</span><span class="obra-ano">(2022)</span></a></li><li class="obra-item" data-titulo="Incombinados — Poemas Escolhidos" data-decada="2020"><a class="obra-cartao" href="luci-incombinados-poemas-escolhidos.html"><img class="capa" src="../imagens/luci-obras/incombinados-poemas-escolhidos.jpeg" alt="Capa de Incombinados — Poemas Escolhidos"/><span class="obra-titulo">Incombinados — Poemas Escolhidos</span><span class="obra-ano">(2025)</span></a></li></ul>
+<div id="obras-vazias" class="obras-vazias" hidden><p>Nenhuma obra encontrada. Tente outro título ou outro período.</p><button id="limpar-filtros" type="button">Limpar filtros</button></div>
+<section class="nota-catalogo"><p>Esta página reúne os 25 títulos de Luci Collin selecionados para o CBEP. Os anos indicam a primeira publicação de cada obra; as capas apresentadas podem pertencer a edições posteriores.</p></section>
+</main>
+</div>
+<footer class="rodape">
+<div class="rodape-marca">
+<strong>
+     CBEP
+    </strong>
+<small>
+     Catálogo bibliográfico de escritores paranaenses
+     <br/>
+     2026
+    </small>
+</div>
+<a class="contato" href="https://docs.google.com/forms/d/e/1FAIpQLSdd1gX3RLJQvGTrSzDLbFLiX2kR7PA3aKx731pIQG-7ZLPJAg/viewform" target="_blank" rel="noopener noreferrer">Envie seu feedback</a>
+</footer>
+</body>
+</html>
+

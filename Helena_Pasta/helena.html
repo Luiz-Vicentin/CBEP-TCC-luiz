@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>
+   Helena Kolody | CBEP
+  </title>
+<link href="../CSS/style.css" rel="stylesheet"/>
+<script defer="" src="../JavaScript/script.js">
+</script>
+<script defer="" src="../JavaScript/catalogo.js">
+</script>
+<script defer src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<link rel="stylesheet" href="../CSS/acessibilidade.css">
+<script src="../JavaScript/acessibilidade.js"></script>
+</head>
+<body>
+<header class="cabecalho">
+<div class="marca">
+<a class="sigla" href="../index.html">
+     CBEP
+    </a>
+<span class="marca-descricao">
+     Catálogo bibliográfico de
+     <br/>
+     escritores paranaenses
+    </span>
+</div>
+<nav aria-label="Navegação principal" class="navegacao">
+<a href="../index.html">
+     Início
+    </a>
+<button aria-controls="painel-lateral" aria-expanded="false" data-menu="autores" type="button">
+     Autores
+    </button>
+<button aria-controls="painel-lateral" aria-expanded="false" data-menu="obras" type="button">
+     Obras
+    </button>
+<a href="../Paginas/mapa.html">
+     Mapa
+    </a>
+<a href="../Paginas/linha-do-tempo.html">Linha do tempo</a>
+<a href="../Paginas/sobre.html">
+     Sobre
+    </a>
+<a href="../Paginas/outros.html">Outros</a>
+<div class="acessibilidade">
+<button id="abrir-acessibilidade" class="acessibilidade-abrir" type="button" aria-label="Opções de acessibilidade" title="Acessibilidade" aria-expanded="false" aria-controls="painel-acessibilidade">
+<img src="../imagens/acessibilidade.png" alt="" width="32" height="32">
+</button>
+<div id="painel-acessibilidade" class="painel-acessibilidade" aria-labelledby="titulo-acessibilidade" hidden>
+<h2 id="titulo-acessibilidade" class="fonte-status">Acessibilidade</h2>
+<button id="alternar-contraste" aria-label="Alto contraste" class="alternar-contraste" type="button" aria-pressed="false"><span class="contraste-texto"><span class="contraste-rotulo">CONTRASTE</span><span class="contraste-icone" aria-hidden="true">◐</span></span><span id="contraste-estado" class="contraste-estado fonte-status">Desativado</span></button>
+<p class="fonte-status">Tamanho do texto</p>
+<div class="controles-fonte" role="group" aria-label="Tamanho do texto">
+<button type="button" data-fonte="diminuir" aria-label="Diminuir o texto" title="Diminuir o texto">A−</button>
+<button type="button" data-fonte="normal" aria-label="Restaurar tamanho padrão do texto" title="Restaurar tamanho padrão">A</button>
+<button type="button" data-fonte="aumentar" aria-label="Aumentar o texto" title="Aumentar o texto">A+</button>
+</div>
+<span id="fonte-status" class="fonte-status" role="status" aria-live="polite"></span>
+</div>
+</div>
+</nav>
+</header>
+<div class="faixa-azul">
+</div>
+<div class="estrutura">
+<aside aria-label="Catálogo lateral" class="painel-lateral" hidden="" id="painel-lateral">
+<div class="painel-topo">
+<h2 id="titulo-painel">
+      Obras
+     </h2>
+<button aria-label="Fechar barra lateral" class="fechar" id="fechar-painel" title="Recolher painel" type="button">
+      ‹
+     </button>
+</div>
+<label for="pesquisa" style="position:absolute;left:-9999px">
+     Pesquisar no catálogo
+    </label>
+<input autocomplete="off" class="pesquisa" id="pesquisa" placeholder="Pesquisar..." type="search"/>
+<ul id="lista-catalogo">
+</ul>
+<p hidden="" id="sem-resultados">
+     Nenhum resultado encontrado.
+    </p>
+</aside>
+<main class="conteudo">
+<h1>
+     Helena Kolody
+    </h1>
+<img alt="Retrato de Helena Kolody" class="foto-autor" src="../imagens/helena.jpg"/>
+<section>
+<h2>
+      Biografia
+     </h2>
+<p>
+      Helena kolody nasceu em 12 de outubro de 1912 na cidade de Cruz Machado, Paraná, e faleceu em 15 de fevereiro de 2004 em Curitiba. Seus pais, Miguel e Victoria Kolody, eram imigrantes ucranianos que se estabeleceram no Brasil e fundaram, em Curitiba, a "Prosvita", primeira sociedade ucraniana do país. Desde jovem, Helena já escrevia versos e poemas; em 1928, aos 16 anos, publicou sua primeira obra, "A Lágrima", na revista O Garoto.
+     </p>
+<p>
+      Em 1931, Helena Kolody foi contratada pelo Grupo Escolar Barão de Antonina, em Rio Negro. Logo depois, passou a lecionar na Escola Normal de Ponta Grossa e, a partir de 1937, foi chamada para atuar no Instituto de Educação de Curitiba (antiga Escola Normal), onde permaneceu por 23 anos. Em 1944, trabalhou por alguns anos em Jacarezinho e, posteriormente, retornou a Curitiba.
+     </p>
+<p>
+      Helena é considerada uma das maiores poetisas do Paraná e do Brasil, sendo uma referência nacional e internacional. Ao longo de sua vida, publicou 22 livros, recebeu diversos prêmios, homenagens e ocupou a cadeira n.º 28 da Academia Paranaense de Letras de 1991 a 2004. Em 2011, foi condecorada pelo Ministério da Cultura com a Ordem do Mérito Cultural – Classe Grã-Cruz, a mais alta honraria da cultura brasileira.
+     </p>
+</section>
+<section>
+<h2>
+      Principais Obras
+     </h2>
+<div class="capas">
+<div class="livro">
+<a aria-label="Ver página da obra Paisagem Interior (1941)" class="link-capa" href="helena-paisagem-interior.html">
+<img alt="Capa de Paisagem Interior" class="capa" src="../imagens/paisagem.webp"/>
+</a>
+<span>
+        Paisagem Interior (1941)
+       </span>
+</div>
+<div class="livro">
+<a aria-label="Ver página da obra A Sombra no Rio (1951)" class="link-capa" href="helena-a-sombra-no-rio.html">
+<img alt="Capa de A Sombra no Rio" class="capa" src="../imagens/sombra.webp"/>
+</a>
+<span>
+        A Sombra no Rio (1951)
+       </span>
+</div>
+<div class="livro">
+<a aria-label="Ver página da obra Sempre Palavra (1985)" class="link-capa" href="helena-sempre-palavra.html">
+<img alt="Capa de Sempre Palavra" class="capa" src="../imagens/palavra.webp"/>
+</a>
+<span>
+        Sempre Palavra (1985)
+       </span>
+</div>
+</div>
+<a class="veja-mais" href="obras-helena.html">
+      Veja mais
+     </a>
+</section>
+<section>
+<h2>
+      Literatura
+     </h2>
+<p>
+      A obra apresenta aspectos existenciais mais reservados, sem vaidades e mundanidades, carregando muita originalidade e presença. As suas palavras funcionam quase como uma epifania, cheia de sentimentos e memórias antigas de seu passado. O espaço inserido e seu cotidiano é bem caracteristico de sua escrita. Além disso, é possível imaginar o que Helena estava pensando enquanto escrevia, criando uma “palavra-imagem”, mas não só daquilo que vemos, mais do que temos medo.
+     </p>
+</section>
+<section>
+<h2>
+      Premiações
+     </h2>
+<ul class="premios">
+<li>
+       1942 – 2º lugar no concurso de poesia da Sociedade de Cultura.
+      </li>
+<li>
+       1949 – 3º lugar no Concurso de Livros do Centro de Letras do Paraná.
+      </li>
+<li>
+       1977 – Troféu Bento Munhoz da Rocha Netto – Personalidade do Ano.
+      </li>
+<li>
+       1987 – Título de Cidadã Honorária de Curitiba.
+      </li>
+<li>
+       1988 – Homenagem relacionada à obra
+       <cite>
+        Viagem no Espelho
+       </cite>
+       .
+      </li>
+<li>
+       2002 – Homenagem da Associação de Mulheres de Negócios e Profissionais.
+      </li>
+<li>
+       2011 – Ordem do Mérito Cultural – Classe Grã-Cruz.
+      </li>
+</ul>
+</section>
+<section>
+<h2>
+      Complemento
+     </h2>
+<p>
+      Para conhecer mais sobre o autor e suas obras, consulte fontes bibliográficas confiáveis.
+     </p>
+<a class="link-complemento" href="https://helenakolody.art/" rel="noopener noreferrer" target="_blank">
+      Helena Kolody - Site Oficial
+     </a>
+</section>
+</main>
+</div>
+<footer class="rodape">
+<div class="rodape-marca">
+<strong>
+     CBEP
+    </strong>
+<small>
+     Catálogo bibliográfico de escritores paranaenses
+     <br/>
+     2026
+    </small>
+</div>
+<a class="contato" href="https://docs.google.com/forms/d/e/1FAIpQLSdd1gX3RLJQvGTrSzDLbFLiX2kR7PA3aKx731pIQG-7ZLPJAg/viewform" target="_blank" rel="noopener noreferrer">Envie seu feedback</a>
+</footer>
+</body>
+</html>

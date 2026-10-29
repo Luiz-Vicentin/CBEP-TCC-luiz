@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
+   Início | CBEP
+  </title>
+<link href="CSS/style.css" rel="stylesheet"/>
+<script defer="" src="JavaScript/script.js">
+</script>
+<script defer="" src="JavaScript/catalogo.js">
+</script>
+<script defer src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<link rel="stylesheet" href="CSS/acessibilidade.css">
+<script src="JavaScript/acessibilidade.js"></script>
+</head>
+<body>
+<header class="cabecalho">
+<div class="marca">
+<a class="sigla" href="index.html">
+     CBEP
+    </a>
+<span class="marca-descricao">
+     Catálogo bibliográfico de
+     <br/>
+     escritores paranaenses
+    </span>
+</div>
+<nav aria-label="Navegação principal" class="navegacao">
+<a aria-current="page" href="index.html">
+     Início
+    </a>
+<button aria-controls="painel-lateral" aria-expanded="false" data-menu="autores" type="button">
+     Autores
+    </button>
+<button aria-controls="painel-lateral" aria-expanded="false" data-menu="obras" type="button">
+     Obras
+    </button>
+<a href="Paginas/mapa.html">
+     Mapa
+    </a>
+<a href="Paginas/linha-do-tempo.html">Linha do tempo</a>
+<a href="Paginas/sobre.html">
+     Sobre
+    </a>
+<a href="Paginas/outros.html">Outros</a>
+<div class="acessibilidade">
+<button id="abrir-acessibilidade" class="acessibilidade-abrir" type="button" aria-label="Opções de acessibilidade" title="Acessibilidade" aria-expanded="false" aria-controls="painel-acessibilidade">
+<img src="imagens/acessibilidade.png" alt="" width="32" height="32">
+</button>
+<div id="painel-acessibilidade" class="painel-acessibilidade" aria-labelledby="titulo-acessibilidade" hidden>
+<h2 id="titulo-acessibilidade" class="fonte-status">Acessibilidade</h2>
+<button id="alternar-contraste" aria-label="Alto contraste" class="alternar-contraste" type="button" aria-pressed="false"><span class="contraste-texto"><span class="contraste-rotulo">CONTRASTE</span><span class="contraste-icone" aria-hidden="true">◐</span></span><span id="contraste-estado" class="contraste-estado fonte-status">Desativado</span></button>
+<p class="fonte-status">Tamanho do texto</p>
+<div class="controles-fonte" role="group" aria-label="Tamanho do texto">
+<button type="button" data-fonte="diminuir" aria-label="Diminuir o texto" title="Diminuir o texto">A−</button>
+<button type="button" data-fonte="normal" aria-label="Restaurar tamanho padrão do texto" title="Restaurar tamanho padrão">A</button>
+<button type="button" data-fonte="aumentar" aria-label="Aumentar o texto" title="Aumentar o texto">A+</button>
+</div>
+<span id="fonte-status" class="fonte-status" role="status" aria-live="polite"></span>
+</div>
+</div>
+</nav>
+</header>
+<div class="faixa-azul">
+</div>
+<div class="estrutura" id="estrutura">
+<aside aria-label="Catálogo" class="painel-lateral" hidden="" id="painel-lateral">
+<div class="painel-topo">
+<h2 id="titulo-painel">
+      Autores
+     </h2>
+<button aria-label="Recolher menu lateral" id="fechar-painel" title="Recolher menu" type="button">
+      ❮
+     </button>
+</div>
+<label class="sr-only" for="pesquisa">
+     Pesquisar no catálogo
+    </label>
+<input autocomplete="off" id="pesquisa" placeholder="Pesquisar autor..." type="search"/>
+<nav aria-label="Resultados do catálogo">
+<ul id="lista-catalogo">
+</ul>
+</nav>
+<p hidden="" id="sem-resultados">
+     Nenhum resultado encontrado.
+    </p>
+</aside>
+<main class="conteudo" id="conteudo">
+<h1>
+     Início
+    </h1>
+<section aria-labelledby="sobre-site">
+<h2 id="sobre-site">
+      Sobre o Site
+     </h2>
+<p>
+      O Catálogo Bibliográfico de Escritores Paranaenses (CBEP) tem como principal objetivo a difusão e divulgação da literatura paranaense, apresentando informações sobre os principais autores do estado, suas obras, características literárias, premiações e outros aspectos relevantes.
+     </p>
+</section>
+<section aria-labelledby="encontrar">
+<h2 id="encontrar">
+      O que você encontrará?
+     </h2>
+<p>
+      No site, você poderá conhecer escritores paranaenses, explorar suas biografias e descobrir suas principais obras e contribuições para a literatura. A seção de cronologia apresenta acontecimentos importantes relacionados à história do Paraná e de seus escritores. Na página
+      <strong>
+       Mapa
+      </strong>
+      , você encontrará uma representação do estado com informações geográficas relacionadas aos autores.
+     </p>
+</section>
+</main>
+</div>
+<footer class="rodape">
+<div class="rodape-marca">
+<strong>
+     CBEP
+    </strong>
+<small>
+     Catálogo bibliográfico de escritores paranaenses
+     <br/>
+     2026
+    </small>
+</div>
+<a class="contato" href="https://docs.google.com/forms/d/e/1FAIpQLSdd1gX3RLJQvGTrSzDLbFLiX2kR7PA3aKx731pIQG-7ZLPJAg/viewform" target="_blank" rel="noopener noreferrer">Envie seu feedback</a>
+</footer>
+</body>
+</html>

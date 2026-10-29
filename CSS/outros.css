@@ -1,0 +1,19 @@
+.pagina-outros .outros-conteudo { max-width: 750px; margin: 0 auto; min-width: 0; }
+.pagina-outros .outros-introducao { margin: 0 0 64px; line-height: 1.9; }
+.pagina-outros .outros-destaque { max-width: none; margin: 0; }
+.pagina-outros .outros-destaque h2 { margin-bottom: 28px; }
+.pagina-outros .outros-video { position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 12px; background: #18241c; }
+.pagina-outros .outros-video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.pagina-outros .outros-destaque > p { line-height: 1.9; }
+.pagina-outros .video-aviso { margin: 12px 0 32px; font-size: 0.875rem; font-style: italic; line-height: 1.6; color: #58636b; }
+.pagina-outros .titulo-sinopse { margin: 32px 0 24px; font-size: 1.25rem; font-weight: normal; line-height: 1.4; }
+.pagina-outros .titulo-sinopse + p { margin-top: 0; }
+.pagina-outros .outros-destaque + .outros-destaque { margin-top: 64px; padding-top: 40px; border-top: 1px solid #d1e2eb; }
+.pagina-outros .outros-saiba-mais { display: flex; align-items: center; flex-wrap: wrap; gap: 16px; margin-top: 28px; }
+.pagina-outros .outros-saiba-mais h3 { margin: 0; color: #2c4933; font-size: 1.25rem; }
+.pagina-outros .outros-saiba-mais > a { flex-shrink: 0; padding: 8px 14px; border-radius: 8px; background: #d1e2eb; color: var(--azul); text-decoration: none; font-size: 0.875rem; line-height: 1.4; font-weight: normal; }
+.pagina-outros .outros-saiba-mais > a:hover { background: #b9d6e6; text-decoration: underline; text-underline-offset: 4px; }
+.pagina-outros a:focus-visible { outline: 3px solid #28689a; outline-offset: 4px; }
+@media (max-width: 600px) {
+  .pagina-outros .outros-introducao { margin-bottom: 40px; }
+}

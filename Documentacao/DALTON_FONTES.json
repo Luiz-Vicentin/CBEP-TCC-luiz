@@ -1,0 +1,507 @@
+[
+  {
+    "titulo": "Sonata ao Luar",
+    "ano": 1945,
+    "slug": "sonata-ao-luar",
+    "capa": "sonata-ao-luar.png",
+    "capa_fonte": "https://static.wixstatic.com/media/709695_ab7a83f8a8244e21a28a294420a9ab37~mv2.png",
+    "fonte": "https://www.boxdigitaldehumanidades.com/post/dalton-trevisan-um-vampiro-%C3%A0-luz-do-sol"
+  },
+  {
+    "titulo": "Sete Anos de Pastor",
+    "ano": 1948,
+    "slug": "sete-anos-de-pastor",
+    "capa": "sete-anos-de-pastor.png",
+    "capa_fonte": "Imagem fornecida pelo usuário em 13/10/2026",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Crônicas da Província de Curitiba",
+    "ano": 1954,
+    "slug": "cronicas-da-provincia-de-curitiba",
+    "capa": null,
+    "capa_fonte": null,
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Guia Histórico de Curitiba",
+    "ano": 1954,
+    "slug": "guia-historico-de-curitiba",
+    "capa": "guia-historico-de-curitiba.png",
+    "capa_fonte": "Imagem fornecida pelo usuário em 13/10/2026",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "O Dia de Marcos",
+    "ano": 1954,
+    "slug": "o-dia-de-marcos",
+    "capa": null,
+    "capa_fonte": null,
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Os Domingos ou Ao Armazém do Lucas",
+    "ano": 1954,
+    "slug": "os-domingos-ou-ao-armazem-do-lucas",
+    "capa": null,
+    "capa_fonte": null,
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Novelas Nada Exemplares",
+    "ano": 1959,
+    "slug": "novelas-nada-exemplares",
+    "capa": "novelas-nada-exemplares.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/novelas_nada_exemplares_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Lamentações de Curitiba",
+    "ano": 1961,
+    "slug": "lamentacoes-de-curitiba",
+    "capa": "lamentacoes-de-curitiba.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/28-764x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "A Velha Querida",
+    "ano": 1964,
+    "slug": "a-velha-querida",
+    "capa": "a-velha-querida.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/26-752x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Cemitério de Elefantes",
+    "ano": 1964,
+    "slug": "cemiterio-de-elefantes",
+    "capa": "cemiterio-de-elefantes.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/cemiterio_de_elefantes_2_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Morte na Praça",
+    "ano": 1964,
+    "slug": "morte-na-praca",
+    "capa": "morte-na-praca.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/morte_na_praca_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "O Anel Mágico",
+    "ano": 1964,
+    "slug": "o-anel-magico",
+    "capa": "o-anel-magico.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/25-774x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Ponto de Crochê",
+    "ano": 1964,
+    "slug": "ponto-de-croche",
+    "capa": "ponto-de-croche.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/24-769x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "O Vampiro de Curitiba",
+    "ano": 1965,
+    "slug": "o-vampiro-de-curitiba",
+    "capa": "o-vampiro-de-curitiba.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2015/10/o_vampiro_de_curitiba.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Desastres do Amor",
+    "ano": 1968,
+    "slug": "desastres-do-amor",
+    "capa": "desastres-do-amor.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/desastres_do_amor_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Mistérios de Curitiba",
+    "ano": 1968,
+    "slug": "misterios-de-curitiba",
+    "capa": "misterios-de-curitiba.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/misterios_de_curitiba_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "A Guerra Conjugal",
+    "ano": 1969,
+    "slug": "a-guerra-conjugal",
+    "capa": "a-guerra-conjugal.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/13-650x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "O Rei da Terra",
+    "ano": 1972,
+    "slug": "o-rei-da-terra",
+    "capa": "o-rei-da-terra.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/o_rei_da_terra_2_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "O Pássaro de Cinco Asas",
+    "ano": 1974,
+    "slug": "o-passaro-de-cinco-asas",
+    "capa": "o-passaro-de-cinco-asas.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/o_passaro_de_cinco_asas_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "A Faca no Coração",
+    "ano": 1975,
+    "slug": "a-faca-no-coracao",
+    "capa": "a-faca-no-coracao.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2015/10/a_faca_no_coracao_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Abismo de Rosas",
+    "ano": 1976,
+    "slug": "abismo-de-rosas",
+    "capa": "abismo-de-rosas.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/abismo_de_rosas_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "A Trombeta do Anjo Vingador",
+    "ano": 1977,
+    "slug": "a-trombeta-do-anjo-vingador",
+    "capa": "a-trombeta-do-anjo-vingador.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/01-660x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Crimes de Paixão",
+    "ano": 1978,
+    "slug": "crimes-de-paixao",
+    "capa": "crimes-de-paixao.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/crimes_de_paixao_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Primeiro Livro de Contos",
+    "ano": 1979,
+    "slug": "primeiro-livro-de-contos",
+    "capa": "primeiro-livro-de-contos.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/primeiro_livros_de_contos_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Vinte Contos Menores",
+    "ano": 1979,
+    "slug": "vinte-contos-menores",
+    "capa": "20-contos-menores.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2015/10/20_contos_menores-1-1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Virgem Louca, Loucos Beijos",
+    "ano": 1979,
+    "slug": "virgem-louca-loucos-beijos",
+    "capa": "virgem-louca-loucos-beijos.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/virgem_louca__loucos_beijos_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Lincha Tarado",
+    "ano": 1980,
+    "slug": "lincha-tarado",
+    "capa": "lincha-tarado.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/lincha_tarado_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Chorinho Brejeiro",
+    "ano": 1981,
+    "slug": "chorinho-brejeiro",
+    "capa": "chorinho-brejeiro.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/chorinho_brejeiro_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Essas Malditas Mulheres",
+    "ano": 1982,
+    "slug": "essas-malditas-mulheres",
+    "capa": "essas-malditas-mulheres.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/essas_malditas_mulheres_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Meu Querido Assassino",
+    "ano": 1983,
+    "slug": "meu-querido-assassino",
+    "capa": "meu-querido-assassino.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/meu_querido_assassino_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Contos Eróticos",
+    "ano": 1984,
+    "slug": "contos-eroticos",
+    "capa": "contos-eroticos.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/contos_eroticos_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "A Polaquinha",
+    "ano": 1985,
+    "slug": "a-polaquinha",
+    "capa": "a-polaquinha.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/a_polaquinha_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Pão e Sangue",
+    "ano": 1988,
+    "slug": "pao-e-sangue",
+    "capa": "pao-e-sangue.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/pao_e_sangue_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Em Busca de Curitiba Perdida",
+    "ano": 1992,
+    "slug": "em-busca-de-curitiba-perdida",
+    "capa": "em-busca-de-curitiba-perdida.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/em_busca_da_curitiba_perdida_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Ah, É?",
+    "ano": 1994,
+    "slug": "ah-e",
+    "capa": "ah-e.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/ah_e_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Dinorá — Novos Mistérios",
+    "ano": 1994,
+    "slug": "dinora-novos-misterios",
+    "capa": "dinora.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/dinora_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "234",
+    "ano": 1997,
+    "slug": "234",
+    "capa": "234.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2015/10/2_3_4.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Quem Tem Medo de Vampiro?",
+    "ano": 1998,
+    "slug": "quem-tem-medo-de-vampiro",
+    "capa": "quem-tem-medo-de-vampiro.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/quem_tem_medo_de_vampiro_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Vozes do Retrato",
+    "ano": 1998,
+    "slug": "vozes-do-retrato",
+    "capa": "vozes-do-retrato.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/vozes_do_retrato_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "111 Ais",
+    "ano": 2000,
+    "slug": "111-ais",
+    "capa": "111-ais.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2015/10/111_ais_2.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "O Grande Deflorador",
+    "ano": 2000,
+    "slug": "o-grande-deflorador",
+    "capa": "o-grande-deflorador.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2016/06/o_grande_deflorador_1.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras",
+    "fonte_data": "https://www.santoandre.sp.gov.br/biblioteca/pesquisa/con_detalhe.asp?ID=59632"
+  },
+  {
+    "titulo": "99 Corruíras Nanicas",
+    "ano": 2002,
+    "slug": "99-corruiras-nanicas",
+    "capa": "99-corruiras-nanicas.jpg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2015/10/corruiras_nanicas.jpg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Pico na Veia",
+    "ano": 2002,
+    "slug": "pico-na-veia",
+    "capa": "pico-na-veia.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/17-681x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Capitu Sou Eu",
+    "ano": 2003,
+    "slug": "capitu-sou-eu",
+    "capa": "capitu-sou-eu.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/10-699x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Continhos Galantes",
+    "ano": 2003,
+    "slug": "continhos-galantes",
+    "capa": "continhos-galantes.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/08-626x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Arara Bêbada",
+    "ano": 2004,
+    "slug": "arara-bebada",
+    "capa": "arara-bebada.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/19-689x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "33 Contos Escolhidos",
+    "ano": 2005,
+    "slug": "33-contos-escolhidos",
+    "capa": "33-contos-escolhidos.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/04-667x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "A Gorda do Tiki Bar",
+    "ano": 2005,
+    "slug": "a-gorda-do-tiki-bar",
+    "capa": "a-gorda-do-tiki-bar.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/20-615x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Rita Ritinha Ritona",
+    "ano": 2005,
+    "slug": "rita-ritinha-ritona",
+    "capa": "rita-ritinha-ritona.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/02-678x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Macho Não Ganha Flor",
+    "ano": 2006,
+    "slug": "macho-nao-ganha-flor",
+    "capa": "macho-nao-ganha-flor.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/21-682x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Duzentos Ladrões",
+    "ano": 2008,
+    "slug": "duzentos-ladroes",
+    "capa": "duzentos-ladroes.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/14-643x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "O Maníaco do Olho Verde",
+    "ano": 2008,
+    "slug": "o-maniaco-do-olho-verde",
+    "capa": "o-maniaco-do-olho-verde.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/23-664x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "35 Noites de Paixão",
+    "ano": 2009,
+    "slug": "35-noites-de-paixao",
+    "capa": "35-noites-de-paixao.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/15-678x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Violetas e Pavões",
+    "ano": 2009,
+    "slug": "violetas-e-pavoes",
+    "capa": "violetas-e-pavoes.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/11-657x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Desgracida",
+    "ano": 2010,
+    "slug": "desgracida",
+    "capa": "desgracida.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/03-638x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Mirinha",
+    "ano": 2011,
+    "slug": "mirinha",
+    "capa": "mirinha.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/05-621x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Nem Te Conto, João",
+    "ano": 2011,
+    "slug": "nem-te-conto-joao",
+    "capa": "nem-te-conto-joao.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/18-610x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "O Anão e a Ninfeta",
+    "ano": 2011,
+    "slug": "o-anao-e-a-ninfeta",
+    "capa": "o-anao-e-a-ninfeta.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/16-666x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Frufru Rataplã Dolores",
+    "ano": 2012,
+    "slug": "frufru-ratapla-dolores",
+    "capa": "frufru-ratapla-dolores.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/09-612x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Até Você, Capitu?",
+    "ano": 2013,
+    "slug": "ate-voce-capitu",
+    "capa": "ate-voce-capitu.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/12-658x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "A Mão na Pena",
+    "ano": 2014,
+    "slug": "a-mao-na-pena",
+    "capa": "a-mao-na-pena.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/07-693x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "O Beijo na Nuca",
+    "ano": 2014,
+    "slug": "o-beijo-na-nuca",
+    "capa": "o-beijo-na-nuca.jpeg",
+    "capa_fonte": "https://ovampirodecuritiba.com.br/wp-content/uploads/2017/07/06-681x1024.jpeg",
+    "fonte": "https://ovampirodecuritiba.com.br/#obras"
+  },
+  {
+    "titulo": "Antologia Pessoal",
+    "ano": 2023,
+    "slug": "antologia-pessoal",
+    "capa": "antologia-pessoal.jpg",
+    "capa_fonte": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/9786555876666.jpg",
+    "fonte": "https://www.record.com.br/products/antologia-pessoal"
+  }
+]

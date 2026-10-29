@@ -1,0 +1,39 @@
+.navegacao .acessibilidade { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 10px; max-width: 100%; margin-left: auto; padding-bottom: 10px; }
+.navegacao .acessibilidade-abrir { display: grid; place-items: center; flex-shrink: 0; width: 44px; height: 44px; padding: 6px; border: 0; border-radius: 7px; background: transparent; color: white; }
+.acessibilidade-abrir img { display: block; width: 32px; height: 32px; padding: 2px; border-radius: 50%; background-color: #fff; object-fit: contain; }
+.navegacao .acessibilidade-abrir:hover { background: transparent; }
+.navegacao .acessibilidade-abrir[aria-expanded="true"] { background: transparent; }
+.navegacao .painel-acessibilidade { order: -1; display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 10px; max-width: 100%; padding: 0; border: 0; background: transparent; color: white; font: 1rem/1.5 Arial, sans-serif; }
+.painel-acessibilidade[hidden] { display: none !important; }
+.navegacao .painel-acessibilidade button { color: white; font: 700 .9375rem/1.4 Arial, sans-serif; text-decoration: none; }
+.navegacao .alternar-contraste { display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 6px 8px; border: 0; border-radius: 6px; background: transparent; text-align: left; }
+.contraste-texto { display: flex; align-items: center; gap: 10px; }
+.contraste-rotulo { font-size: .75rem; font-weight: normal; letter-spacing: .08em; }
+.contraste-icone { font-size: 1.5rem; line-height: 1; }
+.navegacao .controles-fonte { display: flex; align-items: center; gap: 4px; padding-left: 10px; border-left: 1px solid #ffffff60; }
+.navegacao .controles-fonte button { min-width: 38px; min-height: 44px; padding: 6px; border: 0; border-radius: 6px; font: 700 1rem/1.2 Arial, sans-serif; color: white; background: transparent; }
+.navegacao .painel-acessibilidade button:hover,
+.navegacao .alternar-contraste[aria-pressed="true"] { background: #ffffff20; }
+.navegacao .acessibilidade button:focus-visible { outline: 3px solid white; outline-offset: 3px; }
+.navegacao .acessibilidade-abrir:focus-visible { outline-color: white; }
+.navegacao .controles-fonte button:disabled { opacity: .45; cursor: default; }
+.fonte-status { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.conteudo, .painel-lateral, .rodape { overflow-wrap: break-word; }
+
+/* Contraste sem inverter fotografias, capas, vídeos ou as cores do mapa. */
+html[data-alto-contraste] { color-scheme: dark; --verde: #fff; --azul: #ffeb3b; --lateral: #000; --texto: #fff; }
+html[data-alto-contraste] body,
+html[data-alto-contraste] body * { background-color: #000 !important; color: #fff !important; border-color: #fff !important; text-shadow: none !important; }
+html[data-alto-contraste] body a,
+html[data-alto-contraste] body a *,
+html[data-alto-contraste] body button { color: #ffeb3b !important; }
+html[data-alto-contraste] body a { text-decoration: underline; text-underline-offset: 4px; }
+html[data-alto-contraste] body :is(button,input,select,textarea,.painel-acessibilidade) { border: 1px solid #fff !important; }
+html[data-alto-contraste] body .navegacao > button[data-menu] { border: 0 !important; }
+html[data-alto-contraste] body .acessibilidade-abrir img { background-color: #fff !important; }
+html[data-alto-contraste] body :is(button,a):hover,
+html[data-alto-contraste] body button[aria-pressed="true"] { background-color: #262626 !important; }
+html[data-alto-contraste] body :focus-visible { outline: 3px solid #ffeb3b !important; outline-offset: 3px; }
+html[data-alto-contraste] body button:disabled { opacity: .65; }
+html[data-alto-contraste] body .acessibilidade-abrir:hover,
+html[data-alto-contraste] body .acessibilidade-abrir[aria-expanded="true"] { background-color: transparent !important; }

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Outros | CBEP</title>
+<link href="../CSS/style.css" rel="stylesheet"/>
+<link href="../CSS/outros.css" rel="stylesheet"/>
+<script defer src="../JavaScript/video-outros.js"></script>
+<script defer="" src="../JavaScript/script.js">
+</script>
+<script defer="" src="../JavaScript/catalogo.js">
+</script>
+<script defer src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<link rel="stylesheet" href="../CSS/acessibilidade.css">
+<script src="../JavaScript/acessibilidade.js"></script>
+</head>
+<body>
+<header class="cabecalho">
+<div class="marca">
+<a class="sigla" href="../index.html">
+     CBEP
+    </a>
+<span class="marca-descricao">
+     Catálogo bibliográfico de
+     <br/>
+     escritores paranaenses
+    </span>
+</div>
+<nav aria-label="Navegação principal" class="navegacao">
+<a href="../index.html">
+     Início
+    </a>
+<button aria-controls="painel-lateral" aria-expanded="false" data-menu="autores" type="button">
+     Autores
+    </button>
+<button aria-controls="painel-lateral" aria-expanded="false" data-menu="obras" type="button">
+     Obras
+    </button>
+<a href="mapa.html">
+     Mapa
+    </a>
+<a href="linha-do-tempo.html">Linha do tempo</a>
+<a href="sobre.html">
+     Sobre
+    </a>
+<a aria-current="page" href="outros.html">Outros</a>
+<div class="acessibilidade">
+<button id="abrir-acessibilidade" class="acessibilidade-abrir" type="button" aria-label="Opções de acessibilidade" title="Acessibilidade" aria-expanded="false" aria-controls="painel-acessibilidade">
+<img src="../imagens/acessibilidade.png" alt="" width="32" height="32">
+</button>
+<div id="painel-acessibilidade" class="painel-acessibilidade" aria-labelledby="titulo-acessibilidade" hidden>
+<h2 id="titulo-acessibilidade" class="fonte-status">Acessibilidade</h2>
+<button id="alternar-contraste" aria-label="Alto contraste" class="alternar-contraste" type="button" aria-pressed="false"><span class="contraste-texto"><span class="contraste-rotulo">CONTRASTE</span><span class="contraste-icone" aria-hidden="true">◐</span></span><span id="contraste-estado" class="contraste-estado fonte-status">Desativado</span></button>
+<p class="fonte-status">Tamanho do texto</p>
+<div class="controles-fonte" role="group" aria-label="Tamanho do texto">
+<button type="button" data-fonte="diminuir" aria-label="Diminuir o texto" title="Diminuir o texto">A−</button>
+<button type="button" data-fonte="normal" aria-label="Restaurar tamanho padrão do texto" title="Restaurar tamanho padrão">A</button>
+<button type="button" data-fonte="aumentar" aria-label="Aumentar o texto" title="Aumentar o texto">A+</button>
+</div>
+<span id="fonte-status" class="fonte-status" role="status" aria-live="polite"></span>
+</div>
+</div>
+</nav>
+</header>
+<div class="faixa-azul">
+</div>
+<div class="estrutura" id="estrutura">
+<aside aria-label="Catálogo" class="painel-lateral" hidden="" id="painel-lateral">
+<div class="painel-topo">
+<h2 id="titulo-painel">
+      Autores
+     </h2>
+<button aria-label="Recolher menu lateral" id="fechar-painel" title="Recolher menu" type="button">
+      ❮
+     </button>
+</div>
+<label class="sr-only" for="pesquisa">
+     Pesquisar no catálogo
+    </label>
+<input autocomplete="off" id="pesquisa" placeholder="Pesquisar autor..." type="search"/>
+<nav aria-label="Resultados do catálogo">
+<ul id="lista-catalogo">
+</ul>
+</nav>
+<p hidden="" id="sem-resultados">
+     Nenhum resultado encontrado.
+    </p>
+</aside>
+<main class="conteudo pagina-outros" id="conteudo">
+<h1>Outros</h1>
+<div class="outros-conteudo">
+<p class="outros-introducao">Esta seção reúne informações e curiosidades sobre alguns dos nossos autores. Aqui você pode conhecer projetos em que estão envolvidos, conferir reportagens publicadas sobre eles e descobrir homenagens que receberam ao longo de suas vidas. O objetivo é ampliar seu conhecimento sobre esses escritores, apresentar detalhes que possam despertar curiosidade sobre suas obras e suas trajetórias literárias.</p>
+<section class="outros-destaque" aria-labelledby="curta-dalton">
+<h2 id="curta-dalton">Curta-metragem de Dalton Trevisan</h2>
+<div class="outros-video">
+<iframe id="video-dalton" src="https://www.youtube.com/embed/mmu7JHJBTek?playsinline=1&amp;controls=1&amp;rel=0&amp;enablejsapi=1" title="Dalton Trevisan — curta-metragem do Instituto Moreira Salles" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<p id="video-aviso" class="video-aviso" role="status" hidden></p>
+<h3 class="titulo-sinopse">Sinopse</h3>
+<p>O Instituto Moreira Salles lança o curta-metragem “Dalton Trevisan”, sobre o escritor paranaense, em celebração ao seu centenário. Filmado no apartamento em que vivia e trabalhava, em Curitiba, o filme traz um registro raro do autor aos 99 anos, narrado por sua agente literária e amiga, Fabiana Faversani.</p>
+<aside class="outros-saiba-mais" aria-label="Saiba mais sobre o curta-metragem">
+<h3>Saiba mais</h3>
+<a href="https://jornalacena.com.br/dalton-trevisan-ganha-curta-inedito-do-ims-no-ano-de-seu-centenario/" target="_blank" rel="noopener noreferrer">Jornal A Cena <span aria-hidden="true">↗</span></a>
+</aside>
+</section>
+<section class="outros-destaque" aria-labelledby="curta-helena">
+<h2 id="curta-helena">Curta-metragem de Helena Kolody</h2>
+<div class="outros-video">
+<iframe id="video-helena" src="https://www.youtube.com/embed/Z9PYIe1Flo4?playsinline=1&amp;controls=1&amp;rel=0&amp;enablejsapi=1" title="A Babel da Luz — curta-metragem de Helena Kolody" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<p id="video-aviso-helena" class="video-aviso" role="status" hidden></p>
+<h3 class="titulo-sinopse">Sinopse</h3>
+<p>Curta-metragem dirigido por Sylvio Back, com uma duração de aproximadamente 10 minutos. O filme é um autorretrato da poeta Helena Kolody aos 80 anos, que conta seus próprios poemas em diferentes perspectivas.</p>
+<aside class="outros-saiba-mais" aria-label="Saiba mais sobre o curta-metragem de Helena Kolody">
+<h3>Saiba mais</h3>
+<a href="https://curtacinema.com.br/a-babel-da-luz/" target="_blank" rel="noopener noreferrer">Curta Cinema <span aria-hidden="true">↗</span></a>
+</aside>
+</section>
+<section class="outros-destaque" aria-labelledby="entrevista-luci">
+<h2 id="entrevista-luci">Entrevista com Luci Collin</h2>
+<div class="outros-video">
+<iframe id="video-luci" src="https://www.youtube.com/embed/-VHqiD6dAqg?playsinline=1&amp;controls=1&amp;rel=0&amp;enablejsapi=1" title="Entrevista com Luci Collin — TV Cultura" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<p id="video-aviso-luci" class="video-aviso" role="status" hidden></p>
+<h3 class="titulo-sinopse">Sinopse</h3>
+<p>Entrevista concedida à TV Cultura em 2026 conta a trajetória literária dos 40 anos da escritora, apresentando suas obras e seu lançamento mais recente.</p>
+</section>
+<section class="outros-destaque" aria-labelledby="reportagem-olivio">
+<h2 id="reportagem-olivio">Reportagem sobre Olívio Jekupé</h2>
+<div class="outros-video">
+<iframe id="video-olivio" src="https://www.youtube.com/embed/mWfO8F_dULA?playsinline=1&amp;controls=1&amp;rel=0&amp;enablejsapi=1" title="Reportagem sobre Olívio Jekupé e Jekaqua Mirim" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<p id="video-aviso-olivio" class="video-aviso" role="status" hidden></p>
+<h3 class="titulo-sinopse">Sinopse</h3>
+<p>Reportagem sobre Olívio Jekupé e seu filho Jekaqua Mirim, ambos escritores, destaca a importância da preservação e demarcação das terras indígenas. Por meio da escrita e da música, Jekupé e seu filho contribuem para a valorização e a divulgação da cultura guarani e para a luta de seu povo.</p>
+<aside class="outros-saiba-mais" aria-label="Saiba mais sobre Olívio Jekupé">
+<h3>Saiba mais</h3>
+<a href="https://anovademocracia.com.br/pr-entrevista-com-olivio-jekupe-escritor-indigena-a-defesa-da-cultura-e-a-demarcacao-de-terras/" target="_blank" rel="noopener noreferrer">A Nova Democracia <span aria-hidden="true">↗</span></a>
+</aside>
+</section>
+</div>
+</main>
+</div>
+<footer class="rodape">
+<div class="rodape-marca">
+<strong>
+     CBEP
+    </strong>
+<small>
+     Catálogo bibliográfico de escritores paranaenses
+     <br/>
+     2026
+    </small>
+</div>
+<a class="contato" href="https://docs.google.com/forms/d/e/1FAIpQLSdd1gX3RLJQvGTrSzDLbFLiX2kR7PA3aKx731pIQG-7ZLPJAg/viewform" target="_blank" rel="noopener noreferrer">Envie seu feedback</a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>
+   Luci Collin | CBEP
+  </title>
+<link href="../CSS/style.css" rel="stylesheet"/>
+<script defer="" src="../JavaScript/script.js">
+</script>
+<script defer="" src="../JavaScript/catalogo.js">
+</script>
+<script defer src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<link rel="stylesheet" href="../CSS/acessibilidade.css">
+<script src="../JavaScript/acessibilidade.js"></script>
+</head>
+<body>
+<header class="cabecalho">
+<div class="marca">
+<a class="sigla" href="../index.html">
+     CBEP
+    </a>
+<span class="marca-descricao">
+     Catálogo bibliográfico de
+     <br/>
+     escritores paranaenses
+    </span>
+</div>
+<nav aria-label="Navegação principal" class="navegacao">
+<a href="../index.html">
+     Início
+    </a>
+<button aria-controls="painel-lateral" aria-expanded="false" data-menu="autores" type="button">
+     Autores
+    </button>
+<button aria-controls="painel-lateral" aria-expanded="false" data-menu="obras" type="button">
+     Obras
+    </button>
+<a href="../Paginas/mapa.html">
+     Mapa
+    </a>
+<a href="../Paginas/linha-do-tempo.html">Linha do tempo</a>
+<a href="../Paginas/sobre.html">
+     Sobre
+    </a>
+<a href="../Paginas/outros.html">Outros</a>
+<div class="acessibilidade">
+<button id="abrir-acessibilidade" class="acessibilidade-abrir" type="button" aria-label="Opções de acessibilidade" title="Acessibilidade" aria-expanded="false" aria-controls="painel-acessibilidade">
+<img src="../imagens/acessibilidade.png" alt="" width="32" height="32">
+</button>
+<div id="painel-acessibilidade" class="painel-acessibilidade" aria-labelledby="titulo-acessibilidade" hidden>
+<h2 id="titulo-acessibilidade" class="fonte-status">Acessibilidade</h2>
+<button id="alternar-contraste" aria-label="Alto contraste" class="alternar-contraste" type="button" aria-pressed="false"><span class="contraste-texto"><span class="contraste-rotulo">CONTRASTE</span><span class="contraste-icone" aria-hidden="true">◐</span></span><span id="contraste-estado" class="contraste-estado fonte-status">Desativado</span></button>
+<p class="fonte-status">Tamanho do texto</p>
+<div class="controles-fonte" role="group" aria-label="Tamanho do texto">
+<button type="button" data-fonte="diminuir" aria-label="Diminuir o texto" title="Diminuir o texto">A−</button>
+<button type="button" data-fonte="normal" aria-label="Restaurar tamanho padrão do texto" title="Restaurar tamanho padrão">A</button>
+<button type="button" data-fonte="aumentar" aria-label="Aumentar o texto" title="Aumentar o texto">A+</button>
+</div>
+<span id="fonte-status" class="fonte-status" role="status" aria-live="polite"></span>
+</div>
+</div>
+</nav>
+</header>
+<div class="faixa-azul">
+</div>
+<div class="estrutura">
+<aside aria-label="Catálogo lateral" class="painel-lateral" hidden="" id="painel-lateral">
+<div class="painel-topo">
+<h2 id="titulo-painel">
+      Obras
+     </h2>
+<button aria-label="Fechar barra lateral" class="fechar" id="fechar-painel" title="Recolher painel" type="button">
+      ‹
+     </button>
+</div>
+<label for="pesquisa" style="position:absolute;left:-9999px">
+     Pesquisar no catálogo
+    </label>
+<input autocomplete="off" class="pesquisa" id="pesquisa" placeholder="Pesquisar..." type="search"/>
+<ul id="lista-catalogo">
+</ul>
+<p hidden="" id="sem-resultados">
+     Nenhum resultado encontrado.
+    </p>
+</aside>
+<main class="conteudo">
+<h1>
+     Luci Collin
+    </h1>
+<img alt="Retrato de Luci Collin" class="foto-autor" src="../imagens/Luci.jpg"/>
+<section>
+<h2>
+      Biografia
+     </h2>
+<p>
+      Luci Collin, nascida em Curitiba (PR) em 1964, é professora, escritora, tradutora, poeta e membro da Academia Paranaense de Letras. É uma das principais escritoras da literatura contemporânea paranaense. Formou-se em Piano pela Escola de Música e Belas Artes do Paraná em 1985, em Letras Português/Inglês pela Universidade Federal do Paraná em 1990 e em Percussão Clássica pela EMBAP em 1990. Lecionou Literaturas de Língua Inglesa e Tradução Literária na UFPR e atua também na pós-graduação da PUC-PR. Ocupa a cadeira n.º 32 da Academia Paranaense de Letras.
+     </p>
+<p>
+      Publicou seu primeiro livro de poesia em 1984. Sua produção inclui poesia, contos e romances, destacando-se pela experimentação da linguagem, pela musicalidade e pela intertextualidade. Entre seus títulos estão
+      <cite>
+       A Palavra Algo
+      </cite>
+      (2016),
+      <cite>
+       Rosa que Está
+      </cite>
+      (2019),
+      <cite>
+       Olho Reavido
+      </cite>
+      (2022),
+      <cite>
+       Com que se Pode Jogar
+      </cite>
+      (2011) e
+      <cite>
+       Dedos Impermitidos
+      </cite>
+      (2021).
+     </p>
+</section>
+<section>
+<h2>
+      Principais Obras
+     </h2>
+<div class="capas">
+<div class="livro">
+<a aria-label="Ver página de A Palavra Algo" class="link-capa" href="luci-a-palavra-algo.html">
+<img alt="Capa de A Palavra Algo" class="capa" src="../imagens/luci_palavra.jpg"/>
+</a>
+<span>
+        A Palavra Algo (2016)
+       </span>
+</div>
+<div class="livro">
+<a aria-label="Ver página de Querer Falar" class="link-capa" href="luci-querer-falar.html">
+<img alt="Capa de Querer Falar" class="capa" src="../imagens/falar.jpg"/>
+</a>
+<span>
+        Querer Falar (2014)
+       </span>
+</div>
+<div class="livro">
+<a aria-label="Ver página de Dedos Impermitidos" class="link-capa" href="luci-dedos-impermitidos.html">
+<img alt="Capa de Dedos Impermitidos" class="capa" src="../imagens/dedos.jpg"/>
+</a>
+<span>
+        Dedos Impermitidos (2021)
+       </span>
+</div>
+</div>
+<a class="veja-mais" href="obras-luci.html">
+      Veja mais
+     </a>
+</section>
+<section>
+<h2>
+      Literatura
+     </h2>
+<p>
+      A escrita de Luci Collin é marcada pela experimentação formal, pela musicalidade e pela transição entre poesia, conto e romance. Sua formação em Música e Letras se reflete no ritmo dos textos, no trabalho com a linguagem e na exploração de temas contemporâneos.
+     </p>
+</section>
+<section>
+<h2>
+      Premiações
+     </h2>
+<ul class="premios">
+<li>
+       2008 – Menção honrosa na categoria Romance do Concurso Nacional de Literatura Prêmio Cidade de Belo Horizonte.
+      </li>
+<li>
+       2010 – Diploma de Membro Vitalício da Academia Feminina de Letras do Paraná.
+      </li>
+<li>
+       2017 – Segundo lugar na categoria Poesia do Prêmio Jabuti, por
+       <cite>
+        A Palavra Algo
+       </cite>
+       .
+      </li>
+<li>
+       2017 – Ingresso na Academia Paranaense de Letras, cadeira n.º 32.
+      </li>
+<li>
+       2019 – Voto de Congratulações e Aplausos da Câmara Municipal de Curitiba.
+      </li>
+<li>
+       2022 – Terceiro lugar no Prêmio Clarice Lispector, categoria Conto, da Fundação Biblioteca Nacional.
+      </li>
+</ul>
+</section>
+<section>
+<h2>
+      Complemento
+     </h2>
+<p>
+      Para conhecer mais sobre a autora e suas obras, consulte fontes bibliográficas confiáveis.
+     </p>
+<a class="link-complemento" href="https://lucicollin.com.br/" rel="noopener noreferrer" target="_blank">
+      Luci Collin - Site Oficial
+     </a>
+</section>
+</main>
+</div>
+<footer class="rodape">
+<div class="rodape-marca">
+<strong>
+     CBEP
+    </strong>
+<small>
+     Catálogo bibliográfico de escritores paranaenses
+     <br/>
+     2026
+    </small>
+</div>
+<a class="contato" href="https://docs.google.com/forms/d/e/1FAIpQLSdd1gX3RLJQvGTrSzDLbFLiX2kR7PA3aKx731pIQG-7ZLPJAg/viewform" target="_blank" rel="noopener noreferrer">Envie seu feedback</a>
+</footer>
+</body>
+</html>
+

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Obras de Olívio Jekupé | CBEP</title>
+<link href="../CSS/style.css" rel="stylesheet"/>
+<script defer="" src="../JavaScript/script.js">
+</script>
+<script defer="" src="../JavaScript/catalogo.js">
+</script>
+<script defer src="../JavaScript/obras-olivio.js"></script>
+<script defer src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<link rel="stylesheet" href="../CSS/acessibilidade.css">
+<script src="../JavaScript/acessibilidade.js"></script>
+</head>
+<body>
+<header class="cabecalho">
+<div class="marca">
+<a class="sigla" href="../index.html">
+     CBEP
+    </a>
+<span class="marca-descricao">
+     Catálogo bibliográfico de
+     <br/>
+     escritores paranaenses
+    </span>
+</div>
+<nav aria-label="Navegação principal" class="navegacao">
+<a href="../index.html">
+     Início
+    </a>
+<button aria-controls="painel-lateral" aria-expanded="false" data-menu="autores" type="button">
+     Autores
+    </button>
+<button aria-controls="painel-lateral" aria-expanded="false" data-menu="obras" type="button">
+     Obras
+    </button>
+<a href="../Paginas/mapa.html">
+     Mapa
+    </a>
+<a href="../Paginas/linha-do-tempo.html">Linha do tempo</a>
+<a href="../Paginas/sobre.html">
+     Sobre
+    </a>
+<a href="../Paginas/outros.html">Outros</a>
+<div class="acessibilidade">
+<button id="abrir-acessibilidade" class="acessibilidade-abrir" type="button" aria-label="Opções de acessibilidade" title="Acessibilidade" aria-expanded="false" aria-controls="painel-acessibilidade">
+<img src="../imagens/acessibilidade.png" alt="" width="32" height="32">
+</button>
+<div id="painel-acessibilidade" class="painel-acessibilidade" aria-labelledby="titulo-acessibilidade" hidden>
+<h2 id="titulo-acessibilidade" class="fonte-status">Acessibilidade</h2>
+<button id="alternar-contraste" aria-label="Alto contraste" class="alternar-contraste" type="button" aria-pressed="false"><span class="contraste-texto"><span class="contraste-rotulo">CONTRASTE</span><span class="contraste-icone" aria-hidden="true">◐</span></span><span id="contraste-estado" class="contraste-estado fonte-status">Desativado</span></button>
+<p class="fonte-status">Tamanho do texto</p>
+<div class="controles-fonte" role="group" aria-label="Tamanho do texto">
+<button type="button" data-fonte="diminuir" aria-label="Diminuir o texto" title="Diminuir o texto">A−</button>
+<button type="button" data-fonte="normal" aria-label="Restaurar tamanho padrão do texto" title="Restaurar tamanho padrão">A</button>
+<button type="button" data-fonte="aumentar" aria-label="Aumentar o texto" title="Aumentar o texto">A+</button>
+</div>
+<span id="fonte-status" class="fonte-status" role="status" aria-live="polite"></span>
+</div>
+</div>
+</nav>
+</header>
+<div class="faixa-azul">
+</div>
+<div class="estrutura">
+<aside aria-label="Catálogo lateral" class="painel-lateral" hidden="" id="painel-lateral">
+<div class="painel-topo">
+<h2 id="titulo-painel">
+      Obras
+     </h2>
+<button aria-label="Fechar barra lateral" class="fechar" id="fechar-painel" title="Recolher painel" type="button">
+      ‹
+     </button>
+</div>
+<label for="pesquisa" style="position:absolute;left:-9999px">
+     Pesquisar no catálogo
+    </label>
+<input autocomplete="off" class="pesquisa" id="pesquisa" placeholder="Pesquisar..." type="search"/>
+<ul id="lista-catalogo">
+</ul>
+<p hidden="" id="sem-resultados">
+     Nenhum resultado encontrado.
+    </p>
+</aside>
+<main class="conteudo pagina-obras-catalogo">
+<h1>Obras de Olívio Jekupé</h1>
+<section class="introducao-obras"><h2>Sobre</h2><p>Conheça as obras de Olívio Jekupé reunidas no catálogo, em ordem de lançamento. Pesquise pelo nome do livro ou escolha um período.</p></section>
+<section class="filtros-obras" aria-label="Filtrar obras">
+<label class="sr-only" for="busca-obras">Pesquisar pelo nome do livro</label>
+<div class="campo-busca-obras"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 5 5"/></svg><input id="busca-obras" type="search" placeholder="Pesquisar pelo nome do livro..." autocomplete="off"/></div>
+<div class="decadas-obras" role="group" aria-label="Período de publicação"><button type="button" class="decada selecionada" data-decada="todas" aria-pressed="true">Todas</button><button type="button" class="decada" data-decada="1990" aria-pressed="false">1990–1999</button><button type="button" class="decada" data-decada="2000" aria-pressed="false">2000–2009</button><button type="button" class="decada" data-decada="2010" aria-pressed="false">2010–2019</button><button type="button" class="decada" data-decada="2020" aria-pressed="false">2020–2026</button></div>
+<p id="contagem-obras" class="contagem-obras" role="status" aria-live="polite">24 obras · ordem de lançamento</p>
+</section>
+<ul class="grade-obras" id="grade-obras"><li class="obra-item" data-titulo="Leópolis Inesquecível" data-decada="1990"><a class="obra-cartao" href="olivio-leopolis.html"><div class="capa-sem-edicao" role="img" aria-label="Capa de Leópolis Inesquecível ainda não disponível"><span>Leópolis<br/>Inesquecível</span><small>Capa não disponível</small></div><span class="obra-titulo">Leópolis Inesquecível</span><span class="obra-ano">(1993)</span></a></li><li class="obra-item" data-titulo="500 anos de angústia" data-decada="1990"><a class="obra-cartao" href="olivio-500-anos.html"><img class="capa" src="../imagens/500_anos_de_Angustia.jpg" alt="Capa de 500 anos de angústia"/><span class="obra-titulo">500 anos de angústia</span><span class="obra-ano">(1999)</span></a></li><li class="obra-item" data-titulo="O Saci verdadeiro" data-decada="2000"><a class="obra-cartao" href="olivio-saci-verdadeiro.html"><img class="capa" src="../imagens/o_saci_verdadeiro.jpg" alt="Capa de O Saci verdadeiro"/><span class="obra-titulo">O Saci verdadeiro</span><span class="obra-ano">(2000)</span></a></li><li class="obra-item" data-titulo="Iarandu, o cão falante" data-decada="2000"><a class="obra-cartao" href="olivio-iarandu.html"><img class="capa" src="../imagens/olivio-obras/iarandu.jpg" alt="Capa de Iarandu, o cão falante"/><span class="obra-titulo">Iarandu, o cão falante</span><span class="obra-ano">(2002)</span></a></li><li class="obra-item" data-titulo="Xerekó Arandu: a morte de Kretã" data-decada="2000"><a class="obra-cartao" href="olivio-xereko.html"><img class="capa" src="../imagens/olivio-obras/xereko.jpg" alt="Capa de Xerekó Arandu: a morte de Kretã"/><span class="obra-titulo">Xerekó Arandu: a morte de Kretã</span><span class="obra-ano">(2002)</span></a></li><li class="obra-item" data-titulo="Arandu Ymanguaré: sabedoria antiga" data-decada="2000"><a class="obra-cartao" href="olivio-arandu.html"><img class="capa" src="../imagens/olivio-obras/arandu.jpg" alt="Capa de Arandu Ymanguaré: sabedoria antiga"/><span class="obra-titulo">Arandu Ymanguaré: sabedoria antiga</span><span class="obra-ano">(2002)</span></a></li><li class="obra-item" data-titulo="Verá, o contador de histórias" data-decada="2000"><a class="obra-cartao" href="olivio-vera.html"><img class="capa" src="../imagens/olivio-obras/vera.jpg" alt="Capa de Verá, o contador de histórias"/><span class="obra-titulo">Verá, o contador de histórias</span><span class="obra-ano">(2003)</span></a></li><li class="obra-item" data-titulo="Ajuda do Saci – Kamba’i" data-decada="2000"><a class="obra-cartao" href="olivio-ajuda-do-saci.html"><img class="capa" src="../imagens/ajuda_doSaci.jpg" alt="Capa de Ajuda do Saci – Kamba’i"/><span class="obra-titulo">Ajuda do Saci – Kamba’i</span><span class="obra-ano">(2006)</span></a></li><li class="obra-item" data-titulo="Literatura escrita pelos povos indígenas" data-decada="2000"><a class="obra-cartao" href="olivio-literatura-escrita.html"><img class="capa" src="../imagens/olivio-obras/literatura-escrita.jpg" alt="Capa de Literatura escrita pelos povos indígenas"/><span class="obra-titulo">Literatura escrita pelos povos indígenas</span><span class="obra-ano">(2009)</span></a></li><li class="obra-item" data-titulo="A mulher que virou Urutau" data-decada="2010"><a class="obra-cartao" href="olivio-urutau.html"><img class="capa" src="../imagens/olivio-obras/urutau.jpg" alt="Capa de A mulher que virou Urutau"/><span class="obra-titulo">A mulher que virou Urutau</span><span class="obra-ano">(2011)</span></a></li><li class="obra-item" data-titulo="Tekoa: conhecendo uma aldeia indígena" data-decada="2010"><a class="obra-cartao" href="olivio-tekoa.html"><img class="capa" src="../imagens/olivio-obras/tekoa.jpg" alt="Capa de Tekoa: conhecendo uma aldeia indígena"/><span class="obra-titulo">Tekoa: conhecendo uma aldeia indígena</span><span class="obra-ano">(2011)</span></a></li><li class="obra-item" data-titulo="As queixadas e outros contos guaranis" data-decada="2010"><a class="obra-cartao" href="olivio-queixadas.html"><img class="capa" src="../imagens/olivio-obras/queixadas.jpg" alt="Capa de As queixadas e outros contos guaranis"/><span class="obra-titulo">As queixadas e outros contos guaranis</span><span class="obra-ano">(2012)</span></a></li><li class="obra-item" data-titulo="Tupã Mirim: o pequeno guerreiro" data-decada="2010"><a class="obra-cartao" href="olivio-tupa.html"><img class="capa" src="../imagens/olivio-obras/tupa.jpg" alt="Capa de Tupã Mirim: o pequeno guerreiro"/><span class="obra-titulo">Tupã Mirim: o pequeno guerreiro</span><span class="obra-ano">(2014)</span></a></li><li class="obra-item" data-titulo="O presente de Jaxy Jaterê" data-decada="2010"><a class="obra-cartao" href="olivio-jaxy.html"><img class="capa" src="../imagens/olivio-obras/jaxy.jpg" alt="Capa de O presente de Jaxy Jaterê"/><span class="obra-titulo">O presente de Jaxy Jaterê</span><span class="obra-ano">(2017)</span></a></li><li class="obra-item" data-titulo="A volta de Tukã" data-decada="2010"><a class="obra-cartao" href="olivio-tuka.html"><img class="capa" src="../imagens/olivio-obras/tuka.jpg" alt="Capa de A volta de Tukã"/><span class="obra-titulo">A volta de Tukã</span><span class="obra-ano">(2018)</span></a></li><li class="obra-item" data-titulo="A invasão" data-decada="2020"><a class="obra-cartao" href="olivio-invasao.html"><img class="capa" src="../imagens/olivio-obras/invasao.jpg" alt="Capa de A invasão"/><span class="obra-titulo">A invasão</span><span class="obra-ano">(2020)</span></a></li><li class="obra-item" data-titulo="Literatura nativa em família" data-decada="2020"><a class="obra-cartao" href="olivio-nativa.html"><img class="capa" src="../imagens/olivio-obras/nativa.jpg" alt="Capa de Literatura nativa em família"/><span class="obra-titulo">Literatura nativa em família</span><span class="obra-ano">(2020)</span></a></li><li class="obra-item" data-titulo="Kunumi MC: o guerreiro da Copa e suas músicas" data-decada="2020"><a class="obra-cartao" href="olivio-kunumi.html"><img class="capa" src="../imagens/olivio-obras/kunumi.jpg" alt="Capa de Kunumi MC: o guerreiro da Copa e suas músicas"/><span class="obra-titulo">Kunumi MC: o guerreiro da Copa e suas músicas</span><span class="obra-ano">(2021)</span></a></li><li class="obra-item" data-titulo="História de Kairú" data-decada="2020"><a class="obra-cartao" href="olivio-kairu.html"><img class="capa" src="../imagens/olivio-obras/kairu.jpg" alt="Capa de História de Kairú"/><span class="obra-titulo">História de Kairú</span><span class="obra-ano">(2022)</span></a></li><li class="obra-item" data-titulo="A história de Piragui" data-decada="2020"><a class="obra-cartao" href="olivio-piragui.html"><img class="capa" src="../imagens/olivio-obras/piragui.jpg" alt="Capa de A história de Piragui"/><span class="obra-titulo">A história de Piragui</span><span class="obra-ano">(2023)</span></a></li><li class="obra-item" data-titulo="Conversa de fim de tarde" data-decada="2020"><a class="obra-cartao" href="olivio-conversa.html"><img class="capa" src="../imagens/olivio-obras/conversa.jpg" alt="Capa de Conversa de fim de tarde"/><span class="obra-titulo">Conversa de fim de tarde</span><span class="obra-ano">(2023)</span></a></li><li class="obra-item" data-titulo="A explosão do Ojepotá" data-decada="2020"><a class="obra-cartao" href="olivio-ojepota.html"><img class="capa" src="../imagens/olivio-obras/ojepota.jpg" alt="Capa de A explosão do Ojepotá"/><span class="obra-titulo">A explosão do Ojepotá</span><span class="obra-ano">(2023)</span></a></li><li class="obra-item" data-titulo="O breviário de um índio" data-decada="2020"><a class="obra-cartao" href="olivio-breviario.html"><img class="capa" src="../imagens/olivio-obras/breviario.jpg" alt="Capa de O breviário de um índio"/><span class="obra-titulo">O breviário de um índio</span><span class="obra-ano">(2024)</span></a></li><li class="obra-item" data-titulo="Kurumin na cidade" data-decada="2020"><a class="obra-cartao" href="olivio-kurumin.html"><img class="capa" src="../imagens/olivio-obras/kurumin.jpg" alt="Capa de Kurumin na cidade"/><span class="obra-titulo">Kurumin na cidade</span><span class="obra-ano">(2025)</span></a></li></ul>
+<div id="obras-vazias" class="obras-vazias" hidden><p>Nenhuma obra encontrada. Tente outro título ou outra década.</p><button id="limpar-filtros" type="button">Limpar filtros</button></div>
+<section class="nota-catalogo"><p>Esta página reúne os 24 títulos de Olívio Jekupé selecionados para o CBEP. Os anos indicam a primeira publicação de cada obra; as capas apresentadas podem pertencer a edições posteriores.</p><p>Ainda não está disponível a capa de <strong>Leópolis Inesquecível</strong>.</p></section>
+</main>
+</div>
+<footer class="rodape">
+<div class="rodape-marca">
+<strong>
+     CBEP
+    </strong>
+<small>
+     Catálogo bibliográfico de escritores paranaenses
+     <br/>
+     2026
+    </small>
+</div>
+<a class="contato" href="https://docs.google.com/forms/d/e/1FAIpQLSdd1gX3RLJQvGTrSzDLbFLiX2kR7PA3aKx731pIQG-7ZLPJAg/viewform" target="_blank" rel="noopener noreferrer">Envie seu feedback</a>
+</footer>
+</body>
+</html>
+
+
